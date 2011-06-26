@@ -95,6 +95,8 @@
     //return [[[FlickrFetcher sharedInstance] fetchManagedObjectsForEntity:@"Person" withPredicate: nil] count];
 	id <NSFetchedResultsSectionInfo> sectionInfo =
 	[[self.fetchedResultsController sections] objectAtIndexPath:section];
+	
+	
 	NSLog(@"returns %d",[sectionInfo numberOfObjects] );
 	return [sectionInfo numberOfObjects];
 }

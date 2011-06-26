@@ -1,0 +1,5 @@
+/Users/Zhisheng/ObjC_Progs/Paparazzi2/PersonListViewController.m: In function '-[PersonListViewController tableView:numberOfRowsInSection:]':
+/Users/Zhisheng/ObjC_Progs/Paparazzi2/PersonListViewController.m:97: warning: 'NSArray' may not respond to '-objectAtIndexPath:'
+/Users/Zhisheng/ObjC_Progs/Paparazzi2/PersonListViewController.m:97: warning: (Messages without a matching method signature
+/Users/Zhisheng/ObjC_Progs/Paparazzi2/PersonListViewController.m:97: warning: will be assumed to return 'id' and accept
+/Users/Zhisheng/ObjC_Progs/Paparazzi2/PersonListViewController.m:97: warning: '...' as arguments.)
