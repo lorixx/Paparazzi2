@@ -202,7 +202,7 @@
 			<key>Content</key>
 			<dict>
 				<key>PBXProjectModuleGUID</key>
-				<string>DBF621B113B70587002364AE</string>
+				<string>DBF622A513B71A1C002364AE</string>
 				<key>PBXProjectModuleLabel</key>
 				<string>PersonListViewController.m</string>
 				<key>PBXSplitModuleInNavigatorKey</key>
@@ -210,16 +210,16 @@
 					<key>Split0</key>
 					<dict>
 						<key>PBXProjectModuleGUID</key>
-						<string>DBF621B213B70587002364AE</string>
+						<string>DBF622A613B71A1C002364AE</string>
 						<key>PBXProjectModuleLabel</key>
 						<string>PersonListViewController.m</string>
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>DBF6229413B717FD002364AE</string>
+						<string>DBF622CA13B71D81002364AE</string>
 						<key>history</key>
 						<array>
-							<string>DBF6223F13B711D6002364AE</string>
+							<string>DBF6229F13B71A15002364AE</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -235,7 +235,7 @@
 				<key>PBXModuleWindowStatusBarHidden2</key>
 				<false/>
 				<key>RubberWindowFrame</key>
-				<string>112 -26 1746 1090 0 0 1920 1178 </string>
+				<string>21 88 1746 1090 0 0 1920 1178 </string>
 			</dict>
 		</dict>
 	</array>
@@ -270,6 +270,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -314,7 +316,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
+									<integer>17</integer>
 									<integer>4</integer>
 									<integer>0</integer>
 								</array>
@@ -350,14 +352,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>FlickrFetcher.m</string>
+								<string>Photo.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -365,14 +365,13 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>FlickrFetcher.m</string>
+										<string>Photo.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DBF6229313B717FD002364AE</string>
+										<string>DBF622C913B71D81002364AE</string>
 										<key>history</key>
 										<array>
-											<string>DBF6214613B6F220002364AE</string>
 											<string>DBF6214713B6F220002364AE</string>
 											<string>DBF6214813B6F220002364AE</string>
 											<string>DBF6214A13B6F220002364AE</string>
@@ -380,7 +379,6 @@
 											<string>DBF6214E13B6F220002364AE</string>
 											<string>DBF6215313B6F220002364AE</string>
 											<string>DBF6215413B6F220002364AE</string>
-											<string>DBF6217413B6F757002364AE</string>
 											<string>DBF6219313B70267002364AE</string>
 											<string>DBF6219413B70267002364AE</string>
 											<string>DBF621EE13B70CED002364AE</string>
@@ -388,9 +386,11 @@
 											<string>DBF6223213B71142002364AE</string>
 											<string>DBF6223313B71142002364AE</string>
 											<string>DBF6228913B71378002364AE</string>
-											<string>DBF6228F13B714E9002364AE</string>
 											<string>DBF6229013B714E9002364AE</string>
-											<string>DBF6228813B71378002364AE</string>
+											<string>DBF622A213B71A1C002364AE</string>
+											<string>DBF622B413B71C0C002364AE</string>
+											<string>DBF622B513B71C0C002364AE</string>
+											<string>DBF622B613B71C0C002364AE</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -590,9 +590,9 @@
 	<array>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>DBF6213A13B6F20E002364AE</string>
-		<string>/Users/Zhisheng/ObjC_Progs/Paparazzi2/Paparazzi2.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
-		<string>DBF621B113B70587002364AE</string>
+		<string>/Users/Zhisheng/ObjC_Progs/Paparazzi2/Paparazzi2.xcodeproj</string>
+		<string>DBF622A513B71A1C002364AE</string>
 	</array>
 	<key>WindowString</key>
 	<string>-1280 455 1280 745 -1280 400 1280 800 </string>
@@ -941,7 +941,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {657, 715}}</string>
 								<key>RubberWindowFrame</key>
-								<string>298 314 657 756 0 0 1920 1178 </string>
+								<string>1083 65 657 756 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
@@ -970,7 +970,7 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>298 314 657 756 0 0 1920 1178 </string>
+			<string>1083 65 657 756 0 0 1920 1178 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>

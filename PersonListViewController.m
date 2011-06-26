@@ -28,6 +28,15 @@
 	self.fetchedResultsController = 
 	[[FlickrFetcher sharedInstance] fetchedResultsControllerForEntity:@"Person" withPredicate: nil]; 
 	
+	//This is very important before we use the data, we need to perform fetch to get data from the database, otherwise
+	//these will be no data to use
+	NSError *error;
+	if(![self.fetchedResultsController performFetch:&error]){
+		NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+	}
+	
+	
+	
 	NSLog(@"the first count: %d", [[self.fetchedResultsController sections] count]);
 	
 	int count = [[[FlickrFetcher sharedInstance] fetchManagedObjectsForEntity:@"Person" withPredicate: nil] count]; 
@@ -94,10 +103,10 @@
     // Return the number of rows in the section.
     //return [[[FlickrFetcher sharedInstance] fetchManagedObjectsForEntity:@"Person" withPredicate: nil] count];
 	id <NSFetchedResultsSectionInfo> sectionInfo =
-	[[self.fetchedResultsController sections] objectAtIndexPath:section];
+	[[self.fetchedResultsController sections] objectAtIndex:section];
 	
 	
-	NSLog(@"returns %d",[sectionInfo numberOfObjects] );
+	NSLog(@"returns here here %d",[sectionInfo numberOfObjects] );
 	return [sectionInfo numberOfObjects];
 }
 
@@ -109,8 +118,10 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
     }
+	
+	cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
     
     // Configure the cell...
 	
@@ -119,9 +130,9 @@
 	NSLog(@"this person: %@", [ thisPerson valueForKey:@"name"]);
 
 	cell.textLabel.text =[ thisPerson valueForKey:@"name"];	
-	Photo * lastPhoto = [[thisPerson valueForKey:@"photos" ] lastObject];
-	[cell.imageView setImage:[UIImage imageNamed: [lastPhoto valueForKey:@"imageURL"]]];
-	cell.detailTextLabel.text = [lastPhoto valueForKey:@"imageName"];
+	Photo * anyPhoto = [[thisPerson valueForKey:@"photos" ] anyObject];
+	[cell.imageView setImage:[UIImage imageNamed: [anyPhoto valueForKey:@"imageURL"]]];
+	cell.detailTextLabel.text = [anyPhoto valueForKey:@"imageName"];
 	
     
     return cell;
