@@ -30,4 +30,8 @@
 // Returns an NSFetchedResultsController for a given Entity Name and Predicate
 - (NSFetchedResultsController *)fetchedResultsControllerForEntity:(NSString*)entityName withPredicate:(NSPredicate*)predicate;
 
+//This is for fetching photos special case
+- (NSFetchedResultsController *)fetchedPhotoResultsControllerForEntity:(NSString*)entityName withPredicate:(NSPredicate*)predicate;
+
+
 @end

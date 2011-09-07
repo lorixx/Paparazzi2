@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSManagedObjectModel_CurrentVersionName</key>
+	<string>Paparazzi2</string>
+	<key>NSManagedObjectModel_VersionHashes</key>
+	<dict>
+		<key>Paparazzi2</key>
+		<dict>
+			<key>Person</key>
+			<data>
+			Bz0IMedzLZL+/v0xJNOIrEAbvJgEE4e0+r8t65/P0dg=
+			</data>
+			<key>Photo</key>
+			<data>
+			ODzYYAk4fE3LzKiDByXeVotbpZBUfRbthrXcsJn0T7Q=
+			</data>
+		</dict>
+	</dict>
+</dict>
+</plist>

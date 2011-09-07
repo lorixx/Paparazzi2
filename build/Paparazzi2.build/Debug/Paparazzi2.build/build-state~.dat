@@ -1,0 +1,212 @@
+TPaparazzi2
+v7
+r1
+cCheck dependencies
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/FakeData.plist
+c000000004E06E628000000000000029F
+t1309074984
+s671
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/LOGO2-1.jpg
+c000000004E06E6280000000000014D17
+t1309074984
+s85271
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/MainWindow.xib
+c000000004E06E62800000000000021D7
+t1309074984
+s8663
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/PersonListViewController.xib
+c000000004E06E6280000000000001C93
+t1309074984
+s7315
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoDetailViewController.xib
+c000000004E06E6280000000000001886
+t1309074984
+s6278
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoListViewController.xib
+c000000004E06E6280000000000001C90
+t1309074984
+s7312
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/all.png
+c000000004E06E6280000000000000340
+t1309074984
+s832
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug/Paparazzi2.app
+t2
+s0
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug/Paparazzi2.app/Contents/Info.plist
+t2
+s0
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug/Paparazzi2.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug/Paparazzi2.app/Contents/Resources/FakeData.plist
+t2
+s0
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug/Paparazzi2.app/Contents/Resources/LOGO2-1.jpg
+t2
+s0
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug/Paparazzi2.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug/Paparazzi2.app/Contents/Resources/PersonListViewController.nib
+t2
+s0
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug/Paparazzi2.app/Contents/Resources/PhotoDetailViewController.nib
+t2
+s0
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug/Paparazzi2.app/Contents/Resources/PhotoListViewController.nib
+t2
+s0
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug/Paparazzi2.app/Contents/Resources/all.png
+t2
+s0
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug/Paparazzi2.app/Contents/Resources/faves.png
+t2
+s0
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug/Paparazzi2.app/Contents/Resources/paparazzi.jpg
+t2
+s0
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug/Paparazzi2.app/Contents/Resources/paparazzi2.jpg
+t2
+s0
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug/Paparazzi2.app/Contents/Resources/paparazzi3.jpg
+t2
+s0
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug/Paparazzi2.app/Contents/Resources/photo1.jpg
+t2
+s0
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug/Paparazzi2.app/Contents/Resources/photo2.jpg
+t2
+s0
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug/Paparazzi2.app/Contents/Resources/photo3.jpg
+t2
+s0
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug/Paparazzi2.app/Contents/Resources/search.png
+t2
+s0
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/faves.png
+c000000004E06E62800000000000002CE
+t1309074984
+s718
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/paparazzi.jpg
+c000000004E06E62800000000000190DE
+t1309074984
+s102622
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/paparazzi2.jpg
+c000000004E06E62800000000000468E7
+t1309074984
+s288999
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/paparazzi3.jpg
+c000000004E06E6280000000000041D1C
+t1309074984
+s269596
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/photo1.jpg
+c000000004E06E6280000000000021974
+t1309074984
+s137588
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/photo2.jpg
+c000000004E06E62800000000000181A8
+t1309074984
+s98728
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/photo3.jpg
+c000000004E06E6280000000000023846
+t1309074984
+s145478
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/search.png
+c000000004E06E62800000000000002DB
+t1309074984
+s731
+
+NPaparazzi2-Info.plist
+c000000004E06E6280000000000000397
+t1309074984
+s919
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies331883819#331883819#0(66"[BEROR]error: There is no SDK with the name or path 'iphoneos4.0'1(4@58"error: There is no SDK with the name or path 'iphoneos4.0'331883819#18446744073709551615#0#0(1@0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileXIB /Users/Zhisheng/ObjC_Progs/Paparazzi2/MainWindow.xib
+r0
+
+CCompileXIB /Users/Zhisheng/ObjC_Progs/Paparazzi2/PersonListViewController.xib
+r0
+
+CCompileXIB /Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoDetailViewController.xib
+r0
+
+CCompileXIB /Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoListViewController.xib
+r0
+
+CCopyPlistFile /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug/Paparazzi2.app/Contents/Resources/FakeData.plist FakeData.plist
+r0
+
+CCpResource build/Debug/Paparazzi2.app/Contents/Resources/LOGO2-1.jpg LOGO2-1.jpg
+r0
+
+CCpResource build/Debug/Paparazzi2.app/Contents/Resources/all.png all.png
+r0
+
+CCpResource build/Debug/Paparazzi2.app/Contents/Resources/faves.png faves.png
+r0
+
+CCpResource build/Debug/Paparazzi2.app/Contents/Resources/paparazzi.jpg paparazzi.jpg
+r0
+
+CCpResource build/Debug/Paparazzi2.app/Contents/Resources/paparazzi2.jpg paparazzi2.jpg
+r0
+
+CCpResource build/Debug/Paparazzi2.app/Contents/Resources/paparazzi3.jpg paparazzi3.jpg
+r0
+
+CCpResource build/Debug/Paparazzi2.app/Contents/Resources/photo1.jpg photo1.jpg
+r0
+
+CCpResource build/Debug/Paparazzi2.app/Contents/Resources/photo2.jpg photo2.jpg
+r0
+
+CCpResource build/Debug/Paparazzi2.app/Contents/Resources/photo3.jpg photo3.jpg
+r0
+
+CCpResource build/Debug/Paparazzi2.app/Contents/Resources/search.png search.png
+r0
+
+CProcessInfoPlistFile /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug/Paparazzi2.app/Contents/Info.plist Paparazzi2-Info.plist
+r0
+
+CTouch /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug/Paparazzi2.app
+r0
+

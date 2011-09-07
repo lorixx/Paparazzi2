@@ -71,6 +71,47 @@
 	return [fetchedResultsController autorelease];
 }
 
+- (NSFetchedResultsController *)fetchedPhotoResultsControllerForEntity:(NSString*)entityName withPredicate:(NSPredicate*)predicate
+{
+	NSFetchedResultsController *fetchedResultsController;
+    
+    /*
+	 Set up the fetched results controller.
+     */
+	// Create the fetch request for the entity.
+	NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+	// Edit the entity name as appropriate.
+	NSEntityDescription *entity = [NSEntityDescription entityForName:entityName inManagedObjectContext:[self managedObjectContext]];
+	[fetchRequest setEntity:entity];
+	
+	// Set the batch size to a suitable number.
+	[fetchRequest setFetchBatchSize:20];
+	
+	// Edit the sort key as appropriate.
+	NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"imageName" ascending:NO];
+	NSArray *sortDescriptors = [[NSArray alloc] initWithObjects:sortDescriptor, nil];
+	
+	[fetchRequest setSortDescriptors:sortDescriptors];
+	
+    // Add a predicate if we're filtering  by user name
+    if (predicate) {
+        [fetchRequest setPredicate:predicate];
+    }
+    
+	// Edit the section name key path and cache name if appropriate.
+    // nil for section name key path means "no sections".
+	fetchedResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest managedObjectContext:[self managedObjectContext] sectionNameKeyPath:nil cacheName:@"Root"];
+	
+	[fetchRequest release];
+	[sortDescriptor release];
+	[sortDescriptors release];
+	
+	return [fetchedResultsController autorelease];
+	
+}
+
+
+
 - (NSArray *)fetchManagedObjectsForEntity:(NSString*)entityName withPredicate:(NSPredicate*)predicate
 {
 	NSManagedObjectContext	*context = [self managedObjectContext];

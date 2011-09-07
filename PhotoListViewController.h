@@ -7,10 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Person.h"
 
 
 @interface PhotoListViewController : UITableViewController {
+	
+	Person *person;
+	NSFetchedResultsController *fetchedResultsController;
+
 
 }
+
+@property (nonatomic, retain) NSFetchedResultsController *fetchedResultsController;
+@property (nonatomic, retain) Person *person;
+
+-initWithPerson: (Person *)thisPerson ;
 
 @end

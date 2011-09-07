@@ -7,10 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Photo.h"
 
 @interface PhotoDetailViewController : UIViewController {
+	
+	Photo *thisPhoto;
+	UIImageView *imageView;
+
 
 }
+
+@property (nonatomic, retain) Photo *thisPhoto;
+@property (nonatomic, retain) UIImageView *imageView;
+
+
+- initWithPhoto: (Photo *)photo;
+
 
 @end

@@ -1,0 +1,1014 @@
+TPaparazzi2
+v7
+r0
+t332398371.156967
+cCheck dependencies
+cCpResource build/Debug-iphoneos/Paparazzi2.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/Info.plist Paparazzi2-Info.plist
+cCompileXIB /Users/Zhisheng/ObjC_Progs/Paparazzi2/MainWindow.xib
+cCpResource build/Debug-iphoneos/Paparazzi2.app/paparazzi2.jpg paparazzi2.jpg
+cCpResource build/Debug-iphoneos/Paparazzi2.app/paparazzi3.jpg paparazzi3.jpg
+cCpResource build/Debug-iphoneos/Paparazzi2.app/LOGO2-1.jpg LOGO2-1.jpg
+cCpResource build/Debug-iphoneos/Paparazzi2.app/paparazzi.jpg paparazzi.jpg
+cCpResource build/Debug-iphoneos/Paparazzi2.app/photo1.jpg photo1.jpg
+cCpResource build/Debug-iphoneos/Paparazzi2.app/photo2.jpg photo2.jpg
+cCpResource build/Debug-iphoneos/Paparazzi2.app/photo3.jpg photo3.jpg
+cCopyPlistFile /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/FakeData.plist FakeData.plist
+cCompileXIB /Users/Zhisheng/ObjC_Progs/Paparazzi2/PersonListViewController.xib
+cCompileXIB /Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoListViewController.xib
+cCompileXIB /Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoDetailViewController.xib
+cCopyPNGFile /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/all.png all.png
+cCopyPNGFile /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/faves.png faves.png
+cCopyPNGFile /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/search.png search.png
+cProcessPCH /var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-ddkjstzygkqhflgaatczzpxujmkc/Paparazzi2_Prefix.pch.gch Paparazzi2_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-aiutvnrkykixiyeytikhmcftnrpa/Paparazzi2_Prefix.pch.gch Paparazzi2_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cDataModelVersionCompile /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/Paparazzi2.momd /Users/Zhisheng/ObjC_Progs/Paparazzi2/Paparazzi2.xcdatamodeld
+cCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/main.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/Paparazzi2AppDelegate.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/Person.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/Person.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/Photo.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/Photo.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/FlickrFetcher.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/FlickrFetcher.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/PersonListViewController.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/PersonListViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/PhotoListViewController.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoListViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/PhotoDetailViewController.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoDetailViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/main.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/Paparazzi2AppDelegate.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/Person.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/Person.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/Photo.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/Photo.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/FlickrFetcher.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/FlickrFetcher.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/PersonListViewController.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/PersonListViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/PhotoListViewController.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoListViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/PhotoDetailViewController.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoDetailViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/Paparazzi2 normal armv6
+cLd /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/Paparazzi2 normal armv7
+cCreateUniversalBinary /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/Paparazzi2 normal "armv6 armv7"
+cGenerateDSYMFile /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app.dSYM /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/Paparazzi2
+cProcessProductPackaging "/Users/Zhisheng/Library/MobileDevice/Provisioning Profiles/21C3385E-BA34-4905-9EC8-744A821B6C55.mobileprovision" /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/embedded.mobileprovision
+cTouch /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2.xcent
+cCodeSign /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D7401890000000000000110
+t1299448201
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004D54D2640000000000303FF0
+t1297404516
+s3162096
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004D54D243000000000000046B
+t1297404483
+s1131
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/Availability.h
+c000000004D4F74C20000000000001B19
+t1297052866
+s6937
+
+N/Users/Zhisheng/Library/MobileDevice/Provisioning Profiles/21C3385E-BA34-4905-9EC8-744A821B6C55.mobileprovision
+c000000004E19ECF90000000000001CC7
+t1310321913
+s7367
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.h
+c000000004E06AE1E00000000000004E5
+t1309060638
+s1253
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m
+c000000004E06D5690000000000002D09
+t1309070697
+s11529
+i"Paparazzi2AppDelegate.h"
+i"PersonListViewController.h"
+i"PhotoListViewController.h"
+i"Person.h"
+i"Photo.h"
+i"FlickrFetcher.h"
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/FakeData.plist
+c000000004E06E628000000000000029F
+t1309074984
+s671
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/FlickrFetcher.h
+c000000004E17F3AC00000000000004F7
+t1310192556
+s1271
+i<Foundation/Foundation.h>
+i<CoreData/CoreData.h>
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/FlickrFetcher.m
+c000000004E17F3D00000000000001DC1
+t1310192592
+s7617
+i"FlickrFetcher.h"
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/LOGO2-1.jpg
+c000000004E06E6280000000000014D17
+t1309074984
+s85271
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/MainWindow.xib
+c000000004E06E62800000000000021D7
+t1309074984
+s8663
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/Paparazzi2.xcdatamodeld
+c000000004E0BFC720000000000000088
+t1309408370
+s136
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/Paparazzi2_Prefix.pch
+c000000004E06E6280000000000000168
+t1309074984
+s360
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/Person.h
+c000000004E06E6280000000000000225
+t1309074984
+s549
+i<CoreData/CoreData.h>
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/Person.m
+c000000004E06E62800000000000000E6
+t1309074984
+s230
+i"Person.h"
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/PersonListViewController.h
+c000000004E06E62800000000000001EC
+t1309074984
+s492
+i<UIKit/UIKit.h>
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/PersonListViewController.m
+c000000004E19FB320000000000001B17
+t1310325554
+s6935
+i"PersonListViewController.h"
+i"PhotoListViewController.h"
+i"FlickrFetcher.h"
+i"Person.h"
+i"Photo.h"
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/PersonListViewController.xib
+c000000004E06E6280000000000001C93
+t1309074984
+s7315
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/Photo.h
+c000000004E0BFC6D000000000000018A
+t1309408365
+s394
+i<CoreData/CoreData.h>
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/Photo.m
+c000000004E0BFC72000000000000010F
+t1309408370
+s271
+i"Photo.h"
+i"Person.h"
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoDetailViewController.h
+c000000004E1BCC0A00000000000001CC
+t1310444554
+s460
+i<UIKit/UIKit.h>
+i"Photo.h"
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoDetailViewController.m
+c000000004E1FC6FA00000000000006E8
+t1310705402
+s1768
+i"PhotoDetailViewController.h"
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoDetailViewController.xib
+c000000004E1FC8280000000000003C7D
+t1310705704
+s15485
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoListViewController.h
+c000000004E0BF86A000000000000020C
+t1309407338
+s524
+i<UIKit/UIKit.h>
+i"Person.h"
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoListViewController.m
+c000000004E1BCA1A0000000000001792
+t1310444058
+s6034
+i"PhotoListViewController.h"
+i"PhotoDetailViewController.h"
+i"FlickrFetcher.h"
+i"Photo.h"
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoListViewController.xib
+c000000004E06E6280000000000001C90
+t1309074984
+s7312
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/all.png
+c000000004E06E6280000000000000340
+t1309074984
+s832
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app
+t1310705571
+s850
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app.dSYM
+t1310705570
+s102
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/FakeData.plist
+t1310323379
+s189
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/Info.plist
+t1310645399
+s891
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/LOGO2-1.jpg
+t1310323379
+s85271
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/MainWindow.nib
+t1310323626
+s987
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/Paparazzi2
+t1310705570
+s125040
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/Paparazzi2.momd
+t1310323382
+s136
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/PersonListViewController.nib
+t1310323626
+s979
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/PhotoDetailViewController.nib
+t1310705567
+s972
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/PhotoListViewController.nib
+t1310323626
+s979
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/PkgInfo
+t1310645399
+s8
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/ResourceRules.plist
+t1310323379
+s485
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/all.png
+t1310323381
+s940
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/embedded.mobileprovision
+t1310323386
+s7367
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/faves.png
+t1310323381
+s843
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/paparazzi.jpg
+t1310323379
+s102622
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/paparazzi2.jpg
+t1310323379
+s288999
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/paparazzi3.jpg
+t1310323379
+s269596
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/photo1.jpg
+t1310323379
+s137588
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/photo2.jpg
+t1310323379
+s98728
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/photo3.jpg
+t1310323379
+s145478
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/search.png
+t1310323381
+s785
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/FlickrFetcher.o
+t1310323628
+s29168
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/Paparazzi2
+t1310705570
+s53496
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/Paparazzi2.LinkFileList
+c000000004E19F2B30000000000000421
+t1310323379
+s1057
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/Paparazzi2AppDelegate.o
+t1310323628
+s79580
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/Person.o
+t1310323628
+s5380
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/PersonListViewController.o
+t1310645400
+s60552
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/Photo.o
+t1310323628
+s5412
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/PhotoDetailViewController.o
+t1310705568
+s47160
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/PhotoListViewController.o
+t1310645400
+s56600
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/main.o
+t1310323628
+s6444
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/FlickrFetcher.o
+t1310323628
+s28684
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/Paparazzi2
+t1310705570
+s53420
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/Paparazzi2.LinkFileList
+c000000004E19F2B30000000000000421
+t1310323379
+s1057
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/Paparazzi2AppDelegate.o
+t1310323628
+s79332
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/Person.o
+t1310323628
+s5380
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/PersonListViewController.o
+t1310645402
+s60216
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/Photo.o
+t1310323628
+s5412
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/PhotoDetailViewController.o
+t1310705568
+s46984
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/PhotoListViewController.o
+t1310645403
+s56352
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/main.o
+t1310323628
+s6428
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2.xcent
+t1310645404
+s426
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/faves.png
+c000000004E06E62800000000000002CE
+t1309074984
+s718
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/main.m
+c000000004E06E6280000000000000174
+t1309074984
+s372
+i<UIKit/UIKit.h>
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/paparazzi.jpg
+c000000004E06E62800000000000190DE
+t1309074984
+s102622
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/paparazzi2.jpg
+c000000004E06E62800000000000468E7
+t1309074984
+s288999
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/paparazzi3.jpg
+c000000004E06E6280000000000041D1C
+t1309074984
+s269596
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/photo1.jpg
+c000000004E06E6280000000000021974
+t1309074984
+s137588
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/photo2.jpg
+c000000004E06E62800000000000181A8
+t1309074984
+s98728
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/photo3.jpg
+c000000004E06E6280000000000023846
+t1309074984
+s145478
+
+N/Users/Zhisheng/ObjC_Progs/Paparazzi2/search.png
+c000000004E06E62800000000000002DB
+t1309074984
+s731
+
+N/var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-aiutvnrkykixiyeytikhmcftnrpa/Paparazzi2_Prefix.pch.gch
+t1310323627
+s11205208
+
+N/var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-bcdzopgsiynuxbedlldgygwhputs/Paparazzi2_Prefix.pch.gch
+t1310323382
+s11205208
+
+N/var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-ddkjstzygkqhflgaatczzpxujmkc/Paparazzi2_Prefix.pch.gch
+t1310323627
+s10742360
+
+N/var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-gthzdvsvxsqezbgrdjdfxwbihzbd/Paparazzi2_Prefix.pch.gch
+t1310323382
+s10742360
+
+N/var/folders/jv/sw_xq1512qg7jkpk0_6gy2ym0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-aiutvnrkykixiyeytikhmcftnrpa/Paparazzi2_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/jv/sw_xq1512qg7jkpk0_6gy2ym0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-ddkjstzygkqhflgaatczzpxujmkc/Paparazzi2_Prefix.pch.gch
+t2
+s0
+
+NPaparazzi2-Info.plist
+c000000004E1EDA7C00000000000003D5
+t1310644860
+s981
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies332398366#332398366#0(0"0(0#1#0"8632505152#0"0#
+
+CCodeSign /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app
+s332398370.369345
+e332398371.156928
+r1
+xCodeSign
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app
+lSLF07#2@44"CodeSign build/Debug-iphoneos/Paparazzi2.app332398370#332398371#0(0"0(0#0#73"/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app8623383264#723"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Zhisheng Huang (389YP3782M)" --resource-rules=/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/ResourceRules.plist --entitlements /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2.xcent /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app0#
+
+CCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/FlickrFetcher.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/FlickrFetcher.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s332016428.124677
+e332016428.227280
+r1
+xCompileC
+xbuild/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/FlickrFetcher.o
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/FlickrFetcher.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/Zhisheng/ObjC_Progs/Paparazzi2/FlickrFetcher.m332016428#332016428#0(0"0(0#0#53"/Users/Zhisheng/ObjC_Progs/Paparazzi2/FlickrFetcher.m8621171712#1853"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-generated-files.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-own-target-headers.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-all-target-headers.hmap -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-project-headers.hmap -F/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/include -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources/armv6 -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources -include /var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-ddkjstzygkqhflgaatczzpxujmkc/Paparazzi2_Prefix.pch -c /Users/Zhisheng/ObjC_Progs/Paparazzi2/FlickrFetcher.m -o /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/FlickrFetcher.o0#
+
+CCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/Paparazzi2AppDelegate.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s332016427.949962
+e332016428.124568
+r1
+xCompileC
+xbuild/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/Paparazzi2AppDelegate.o
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m332016427#332016428#0(0"0(0#0#69"/Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m8615313152#1877"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-generated-files.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-own-target-headers.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-all-target-headers.hmap -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-project-headers.hmap -F/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/include -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources/armv6 -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources -include /var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-ddkjstzygkqhflgaatczzpxujmkc/Paparazzi2_Prefix.pch -c /Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m -o /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/Paparazzi2AppDelegate.o0#
+
+CCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/Person.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/Person.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s332016428.009688
+e332016428.071108
+r1
+xCompileC
+xbuild/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/Person.o
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/Person.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/Zhisheng/ObjC_Progs/Paparazzi2/Person.m332016428#332016428#0(0"0(0#0#46"/Users/Zhisheng/ObjC_Progs/Paparazzi2/Person.m8615039232#1839"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-generated-files.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-own-target-headers.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-all-target-headers.hmap -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-project-headers.hmap -F/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/include -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources/armv6 -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources -include /var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-ddkjstzygkqhflgaatczzpxujmkc/Paparazzi2_Prefix.pch -c /Users/Zhisheng/ObjC_Progs/Paparazzi2/Person.m -o /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/Person.o0#
+
+CCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/PersonListViewController.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/PersonListViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s332338199.797893
+e332338200.492343
+r1
+xCompileC
+xbuild/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/PersonListViewController.o
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/PersonListViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/Zhisheng/ObjC_Progs/Paparazzi2/PersonListViewController.m332338199#332338200#0(0"0(0#0#64"/Users/Zhisheng/ObjC_Progs/Paparazzi2/PersonListViewController.m8608458656#1875"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-generated-files.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-own-target-headers.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-all-target-headers.hmap -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-project-headers.hmap -F/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/include -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources/armv6 -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources -include /var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-ddkjstzygkqhflgaatczzpxujmkc/Paparazzi2_Prefix.pch -c /Users/Zhisheng/ObjC_Progs/Paparazzi2/PersonListViewController.m -o /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/PersonListViewController.o0#
+
+CCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/Photo.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/Photo.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s332016428.071210
+e332016428.146172
+r1
+xCompileC
+xbuild/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/Photo.o
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/Photo.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/Zhisheng/ObjC_Progs/Paparazzi2/Photo.m332016428#332016428#0(0"0(0#0#45"/Users/Zhisheng/ObjC_Progs/Paparazzi2/Photo.m8614756160#1837"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-generated-files.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-own-target-headers.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-all-target-headers.hmap -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-project-headers.hmap -F/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/include -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources/armv6 -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources -include /var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-ddkjstzygkqhflgaatczzpxujmkc/Paparazzi2_Prefix.pch -c /Users/Zhisheng/ObjC_Progs/Paparazzi2/Photo.m -o /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/Photo.o0#
+
+CCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/PhotoDetailViewController.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoDetailViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s332398367.537190
+e332398368.437298
+r1
+xCompileC
+xbuild/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/PhotoDetailViewController.o
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoDetailViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoDetailViewController.m332398367#332398368#0(0"0(0#0#65"/Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoDetailViewController.m8640745120#1877"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-generated-files.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-own-target-headers.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-all-target-headers.hmap -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-project-headers.hmap -F/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/include -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources/armv6 -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources -include /var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-ddkjstzygkqhflgaatczzpxujmkc/Paparazzi2_Prefix.pch -c /Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoDetailViewController.m -o /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/PhotoDetailViewController.o0#
+
+CCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/PhotoListViewController.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoListViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s332338199.798898
+e332338200.466220
+r1
+xCompileC
+xbuild/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/PhotoListViewController.o
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoListViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoListViewController.m332338199#332338200#0(0"0(0#0#63"/Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoListViewController.m8608225536#1873"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-generated-files.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-own-target-headers.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-all-target-headers.hmap -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-project-headers.hmap -F/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/include -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources/armv6 -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources -include /var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-ddkjstzygkqhflgaatczzpxujmkc/Paparazzi2_Prefix.pch -c /Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoListViewController.m -o /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/PhotoListViewController.o0#
+
+CCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/main.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s332016427.948866
+e332016428.009590
+r1
+xCompileC
+xbuild/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/main.o
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/Zhisheng/ObjC_Progs/Paparazzi2/main.m332016427#332016428#0(0"0(0#0#44"/Users/Zhisheng/ObjC_Progs/Paparazzi2/main.m8615499680#1835"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-generated-files.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-own-target-headers.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-all-target-headers.hmap -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-project-headers.hmap -F/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/include -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources/armv6 -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources -include /var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-ddkjstzygkqhflgaatczzpxujmkc/Paparazzi2_Prefix.pch -c /Users/Zhisheng/ObjC_Progs/Paparazzi2/main.m -o /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/FlickrFetcher.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/FlickrFetcher.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332016428.615648
+e332016428.768936
+r1
+xCompileC
+xbuild/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/FlickrFetcher.o
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/FlickrFetcher.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/Zhisheng/ObjC_Progs/Paparazzi2/FlickrFetcher.m332016428#332016428#0(0"0(0#0#53"/Users/Zhisheng/ObjC_Progs/Paparazzi2/FlickrFetcher.m8606694048#1853"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-generated-files.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-own-target-headers.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-all-target-headers.hmap -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-project-headers.hmap -F/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/include -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources/armv7 -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources -include /var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-aiutvnrkykixiyeytikhmcftnrpa/Paparazzi2_Prefix.pch -c /Users/Zhisheng/ObjC_Progs/Paparazzi2/FlickrFetcher.m -o /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/FlickrFetcher.o0#
+
+CCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/Paparazzi2AppDelegate.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332016428.432627
+e332016428.615555
+r1
+xCompileC
+xbuild/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/Paparazzi2AppDelegate.o
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m332016428#332016428#0(0"0(0#0#69"/Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m8622622784#1877"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-generated-files.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-own-target-headers.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-all-target-headers.hmap -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-project-headers.hmap -F/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/include -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources/armv7 -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources -include /var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-aiutvnrkykixiyeytikhmcftnrpa/Paparazzi2_Prefix.pch -c /Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m -o /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/Paparazzi2AppDelegate.o0#
+
+CCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/Person.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/Person.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332016428.446703
+e332016428.516353
+r1
+xCompileC
+xbuild/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/Person.o
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/Person.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/Zhisheng/ObjC_Progs/Paparazzi2/Person.m332016428#332016428#0(0"0(0#0#46"/Users/Zhisheng/ObjC_Progs/Paparazzi2/Person.m8622057152#1839"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-generated-files.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-own-target-headers.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-all-target-headers.hmap -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-project-headers.hmap -F/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/include -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources/armv7 -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources -include /var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-aiutvnrkykixiyeytikhmcftnrpa/Paparazzi2_Prefix.pch -c /Users/Zhisheng/ObjC_Progs/Paparazzi2/Person.m -o /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/Person.o0#
+
+CCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/PersonListViewController.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/PersonListViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332338200.492805
+e332338202.969512
+r1
+xCompileC
+xbuild/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/PersonListViewController.o
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/PersonListViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/Zhisheng/ObjC_Progs/Paparazzi2/PersonListViewController.m332338200#332338202#0(0"0(0#0#64"/Users/Zhisheng/ObjC_Progs/Paparazzi2/PersonListViewController.m8610663168#1875"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-generated-files.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-own-target-headers.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-all-target-headers.hmap -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-project-headers.hmap -F/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/include -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources/armv7 -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources -include /var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-aiutvnrkykixiyeytikhmcftnrpa/Paparazzi2_Prefix.pch -c /Users/Zhisheng/ObjC_Progs/Paparazzi2/PersonListViewController.m -o /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/PersonListViewController.o0#
+
+CCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/Photo.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/Photo.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332016428.516448
+e332016428.635194
+r1
+xCompileC
+xbuild/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/Photo.o
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/Photo.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/Zhisheng/ObjC_Progs/Paparazzi2/Photo.m332016428#332016428#0(0"0(0#0#45"/Users/Zhisheng/ObjC_Progs/Paparazzi2/Photo.m8620877088#1837"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-generated-files.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-own-target-headers.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-all-target-headers.hmap -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-project-headers.hmap -F/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/include -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources/armv7 -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources -include /var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-aiutvnrkykixiyeytikhmcftnrpa/Paparazzi2_Prefix.pch -c /Users/Zhisheng/ObjC_Progs/Paparazzi2/Photo.m -o /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/Photo.o0#
+
+CCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/PhotoDetailViewController.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoDetailViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332398367.614791
+e332398368.455743
+r1
+xCompileC
+xbuild/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/PhotoDetailViewController.o
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoDetailViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoDetailViewController.m332398367#332398368#0(0"0(0#0#65"/Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoDetailViewController.m8640900800#1877"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-generated-files.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-own-target-headers.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-all-target-headers.hmap -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-project-headers.hmap -F/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/include -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources/armv7 -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources -include /var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-aiutvnrkykixiyeytikhmcftnrpa/Paparazzi2_Prefix.pch -c /Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoDetailViewController.m -o /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/PhotoDetailViewController.o0#
+
+CCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/PhotoListViewController.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoListViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332338202.969646
+e332338203.057741
+r1
+xCompileC
+xbuild/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/PhotoListViewController.o
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoListViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoListViewController.m332338202#332338203#0(0"0(0#0#63"/Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoListViewController.m8610528384#1873"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-generated-files.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-own-target-headers.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-all-target-headers.hmap -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-project-headers.hmap -F/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/include -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources/armv7 -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources -include /var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-aiutvnrkykixiyeytikhmcftnrpa/Paparazzi2_Prefix.pch -c /Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoListViewController.m -o /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/PhotoListViewController.o0#
+
+CCompileC build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/main.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332016428.350601
+e332016428.432531
+r1
+xCompileC
+xbuild/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/main.o
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/Zhisheng/ObjC_Progs/Paparazzi2/main.m332016428#332016428#0(0"0(0#0#44"/Users/Zhisheng/ObjC_Progs/Paparazzi2/main.m8617099616#1835"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-generated-files.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-own-target-headers.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-all-target-headers.hmap -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-project-headers.hmap -F/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/include -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources/armv7 -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources -include /var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-aiutvnrkykixiyeytikhmcftnrpa/Paparazzi2_Prefix.pch -c /Users/Zhisheng/ObjC_Progs/Paparazzi2/main.m -o /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/Zhisheng/ObjC_Progs/Paparazzi2/MainWindow.xib
+s332016425.763913
+e332016426.214416
+r1
+xCompileXIB
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib332016425#332016426#0(0"0(0#0#52"/Users/Zhisheng/ObjC_Progs/Paparazzi2/MainWindow.xib8620302624#604"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/MainWindow.nib /Users/Zhisheng/ObjC_Progs/Paparazzi2/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/Zhisheng/ObjC_Progs/Paparazzi2/PersonListViewController.xib
+s332016425.765126
+e332016426.242654
+r1
+xCompileXIB
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/PersonListViewController.xib
+lSLF07#2@39"CompileXIB PersonListViewController.xib332016425#332016426#0(0"0(0#0#66"/Users/Zhisheng/ObjC_Progs/Paparazzi2/PersonListViewController.xib8612383808#632"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/PersonListViewController.nib /Users/Zhisheng/ObjC_Progs/Paparazzi2/PersonListViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoDetailViewController.xib
+s332398366.577145
+e332398367.536029
+r1
+xCompileXIB
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoDetailViewController.xib
+lSLF07#2@40"CompileXIB PhotoDetailViewController.xib332398366#332398367#0(0"0(0#0#67"/Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoDetailViewController.xib8640989984#634"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/PhotoDetailViewController.nib /Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoDetailViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoListViewController.xib
+s332016426.214504
+e332016426.724984
+r1
+xCompileXIB
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoListViewController.xib
+lSLF07#2@38"CompileXIB PhotoListViewController.xib332016426#332016426#0(0"0(0#0#65"/Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoListViewController.xib8622173568#630"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/PhotoListViewController.nib /Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoListViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCopyPNGFile /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/all.png all.png
+s332016180.982915
+e332016181.170657
+r1
+xCopyPNGFile
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/all.png
+xall.png
+lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/Paparazzi2.app/all.png all.png332016180#332016181#0(0"0(0#0#45"/Users/Zhisheng/ObjC_Progs/Paparazzi2/all.png8617610272#516"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Zhisheng/ObjC_Progs/Paparazzi2/all.png /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/all.png0#
+
+CCopyPNGFile /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/faves.png faves.png
+s332016180.984052
+e332016181.170491
+r1
+xCopyPNGFile
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/faves.png
+xfaves.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/Paparazzi2.app/faves.png faves.png332016180#332016181#0(0"0(0#0#47"/Users/Zhisheng/ObjC_Progs/Paparazzi2/faves.png8617131744#520"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Zhisheng/ObjC_Progs/Paparazzi2/faves.png /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/faves.png0#
+
+CCopyPNGFile /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/search.png search.png
+s332016181.170731
+e332016181.196036
+r1
+xCopyPNGFile
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/search.png
+xsearch.png
+lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/Paparazzi2.app/search.png search.png332016181#332016181#0(0"0(0#0#48"/Users/Zhisheng/ObjC_Progs/Paparazzi2/search.png8612159424#522"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Zhisheng/ObjC_Progs/Paparazzi2/search.png /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/search.png0#
+
+CCopyPlistFile /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/FakeData.plist FakeData.plist
+s332016179.430460
+e332016179.807233
+r1
+xCopyPlistFile
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/FakeData.plist
+xFakeData.plist
+lSLF07#2@19"Copy FakeData.plist332016179#332016179#0(0"0(0#0#52"/Users/Zhisheng/ObjC_Progs/Paparazzi2/FakeData.plist8614100544#438"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 FakeData.plist --outdir /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app0#
+
+CCpResource build/Debug-iphoneos/Paparazzi2.app/LOGO2-1.jpg LOGO2-1.jpg
+s332016179.414364
+e332016179.573857
+r1
+xCpResource
+xbuild/Debug-iphoneos/Paparazzi2.app/LOGO2-1.jpg
+xLOGO2-1.jpg
+lSLF07#2@16"Copy LOGO2-1.jpg332016179#332016179#0(0"0(0#0#49"/Users/Zhisheng/ObjC_Progs/Paparazzi2/LOGO2-1.jpg8601981888#517"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Zhisheng/ObjC_Progs/Paparazzi2/LOGO2-1.jpg /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app0#
+
+CCpResource build/Debug-iphoneos/Paparazzi2.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+s332016179.358181
+e332016179.412003
+r1
+xCpResource
+xbuild/Debug-iphoneos/Paparazzi2.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist332016179#332016179#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist5423551314508738560#557"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app0#
+
+CCpResource build/Debug-iphoneos/Paparazzi2.app/paparazzi.jpg paparazzi.jpg
+s332016179.416401
+e332016179.433840
+r1
+xCpResource
+xbuild/Debug-iphoneos/Paparazzi2.app/paparazzi.jpg
+xpaparazzi.jpg
+lSLF07#2@18"Copy paparazzi.jpg332016179#332016179#0(0"0(0#0#51"/Users/Zhisheng/ObjC_Progs/Paparazzi2/paparazzi.jpg8611749696#519"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Zhisheng/ObjC_Progs/Paparazzi2/paparazzi.jpg /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app0#
+
+CCpResource build/Debug-iphoneos/Paparazzi2.app/paparazzi2.jpg paparazzi2.jpg
+s332016179.412863
+e332016179.570066
+r1
+xCpResource
+xbuild/Debug-iphoneos/Paparazzi2.app/paparazzi2.jpg
+xpaparazzi2.jpg
+lSLF07#2@19"Copy paparazzi2.jpg332016179#332016179#0(0"0(0#0#52"/Users/Zhisheng/ObjC_Progs/Paparazzi2/paparazzi2.jpg8607956416#520"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Zhisheng/ObjC_Progs/Paparazzi2/paparazzi2.jpg /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app0#
+
+CCpResource build/Debug-iphoneos/Paparazzi2.app/paparazzi3.jpg paparazzi3.jpg
+s332016179.413492
+e332016179.669273
+r1
+xCpResource
+xbuild/Debug-iphoneos/Paparazzi2.app/paparazzi3.jpg
+xpaparazzi3.jpg
+lSLF07#2@19"Copy paparazzi3.jpg332016179#332016179#0(0"0(0#0#52"/Users/Zhisheng/ObjC_Progs/Paparazzi2/paparazzi3.jpg8602162880#520"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Zhisheng/ObjC_Progs/Paparazzi2/paparazzi3.jpg /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app0#
+
+CCpResource build/Debug-iphoneos/Paparazzi2.app/photo1.jpg photo1.jpg
+s332016179.421613
+e332016179.603605
+r1
+xCpResource
+xbuild/Debug-iphoneos/Paparazzi2.app/photo1.jpg
+xphoto1.jpg
+lSLF07#2@15"Copy photo1.jpg332016179#332016179#0(0"0(0#0#48"/Users/Zhisheng/ObjC_Progs/Paparazzi2/photo1.jpg8605825504#516"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Zhisheng/ObjC_Progs/Paparazzi2/photo1.jpg /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app0#
+
+CCpResource build/Debug-iphoneos/Paparazzi2.app/photo2.jpg photo2.jpg
+s332016179.424357
+e332016179.456535
+r1
+xCpResource
+xbuild/Debug-iphoneos/Paparazzi2.app/photo2.jpg
+xphoto2.jpg
+lSLF07#2@15"Copy photo2.jpg332016179#332016179#0(0"0(0#0#48"/Users/Zhisheng/ObjC_Progs/Paparazzi2/photo2.jpg8615728768#516"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Zhisheng/ObjC_Progs/Paparazzi2/photo2.jpg /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app0#
+
+CCpResource build/Debug-iphoneos/Paparazzi2.app/photo3.jpg photo3.jpg
+s332016179.427691
+e332016179.603309
+r1
+xCpResource
+xbuild/Debug-iphoneos/Paparazzi2.app/photo3.jpg
+xphoto3.jpg
+lSLF07#2@15"Copy photo3.jpg332016179#332016179#0(0"0(0#0#48"/Users/Zhisheng/ObjC_Progs/Paparazzi2/photo3.jpg8615389120#516"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Zhisheng/ObjC_Progs/Paparazzi2/photo3.jpg /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app0#
+
+CCreateUniversalBinary /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/Paparazzi2 normal "armv6 armv7"
+s332398370.159977
+e332398370.170038
+r1
+xCreateUniversalBinary
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/Paparazzi2
+xnormal
+xarmv6 armv7
+lSLF07#2@89"CreateUniversalBinary build/Debug-iphoneos/Paparazzi2.app/Paparazzi2 normal "armv6 armv7"332398370#332398370#0(0"0(0#0#49"/Users/Zhisheng/ObjC_Progs/Paparazzi2/armv6 armv78640922272#600"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/lipo -create /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/Paparazzi2 /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/Paparazzi2 -output /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/Paparazzi20#
+
+CDataModelVersionCompile /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/Paparazzi2.momd /Users/Zhisheng/ObjC_Progs/Paparazzi2/Paparazzi2.xcdatamodeld
+s332016182.551769
+e332016182.775915
+r1
+xDataModelVersionCompile
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/Paparazzi2.momd
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/Paparazzi2.xcdatamodeld
+lSLF07#2@99"DataModelVersionCompile build/Debug-iphoneos/Paparazzi2.app/Paparazzi2.momd Paparazzi2.xcdatamodeld332016182#332016182#0(0"0(0#0#61"/Users/Zhisheng/ObjC_Progs/Paparazzi2/Paparazzi2.xcdatamodeld8615752224#411"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/momc /Users/Zhisheng/ObjC_Progs/Paparazzi2/Paparazzi2.xcdatamodeld /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/Paparazzi2.momd0#
+
+CGenerateDSYMFile /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app.dSYM /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/Paparazzi2
+s332398370.170129
+e332398370.365623
+r1
+xGenerateDSYMFile
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app.dSYM
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/Paparazzi2
+lSLF07#2@104"GenerateDSYMFile build/Debug-iphoneos/Paparazzi2.app.dSYM build/Debug-iphoneos/Paparazzi2.app/Paparazzi2332398370#332398370#0(0"0(0#0#84"/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/Paparazzi28638444768#430"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/Paparazzi2 -o /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app.dSYM0#
+
+CLd /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/Paparazzi2 normal armv6
+s332398368.437511
+e332398370.159870
+r1
+xLd
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/Paparazzi2
+xnormal
+xarmv6
+lSLF07#2@129"Link /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/Paparazzi2332398368#332398370#0(0"0(0#0#0"8609175840#954"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos -F/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos -filelist /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/Paparazzi2.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv6/Paparazzi20#
+
+CLd /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/Paparazzi2 normal armv7
+s332398368.455838
+e332398370.135653
+r1
+xLd
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/Paparazzi2
+xnormal
+xarmv7
+lSLF07#2@129"Link /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/Paparazzi2332398368#332398370#0(0"0(0#0#0"8636279712#954"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos -F/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos -filelist /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/Paparazzi2.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Objects-normal/armv7/Paparazzi20#
+
+CProcessInfoPlistFile /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/Info.plist Paparazzi2-Info.plist
+s332338199.792879
+e332338199.796431
+r1
+xProcessInfoPlistFile
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/Info.plist
+xPaparazzi2-Info.plist
+lSLF07#2@29"Process Paparazzi2-Info.plist332338199#332338199#0(0"0(0#0#59"/Users/Zhisheng/ObjC_Progs/Paparazzi2/Paparazzi2-Info.plist8610185056#632"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility Paparazzi2-Info.plist -genpkginfo /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/ResourceRules.plist -o /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/Info.plist0#
+
+CProcessPCH /var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-aiutvnrkykixiyeytikhmcftnrpa/Paparazzi2_Prefix.pch.gch Paparazzi2_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332016426.726109
+e332016427.948685
+r1
+xProcessPCH
+x/var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-aiutvnrkykixiyeytikhmcftnrpa/Paparazzi2_Prefix.pch.gch
+xPaparazzi2_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile Paparazzi2_Prefix.pch332016426#332016427#0(0"0(0#0#59"/Users/Zhisheng/ObjC_Progs/Paparazzi2/Paparazzi2_Prefix.pch8621348096#1731"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-generated-files.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-own-target-headers.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-all-target-headers.hmap -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-project-headers.hmap -F/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/include -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources/armv7 -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources -c /Users/Zhisheng/ObjC_Progs/Paparazzi2/Paparazzi2_Prefix.pch -o /var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-aiutvnrkykixiyeytikhmcftnrpa/Paparazzi2_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-bcdzopgsiynuxbedlldgygwhputs/Paparazzi2_Prefix.pch.gch Paparazzi2_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332016181.197240
+e332016182.551621
+r1
+xProcessPCH
+x/var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-bcdzopgsiynuxbedlldgygwhputs/Paparazzi2_Prefix.pch.gch
+xPaparazzi2_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile Paparazzi2_Prefix.pch332016181#332016182#0(0"0(0#0#59"/Users/Zhisheng/ObjC_Progs/Paparazzi2/Paparazzi2_Prefix.pch8614917600#1731"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-generated-files.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-own-target-headers.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-all-target-headers.hmap -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-project-headers.hmap -F/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/include -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources/armv7 -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources -c /Users/Zhisheng/ObjC_Progs/Paparazzi2/Paparazzi2_Prefix.pch -o /var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-bcdzopgsiynuxbedlldgygwhputs/Paparazzi2_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-ddkjstzygkqhflgaatczzpxujmkc/Paparazzi2_Prefix.pch.gch Paparazzi2_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s332016426.725111
+e332016427.736524
+r1
+xProcessPCH
+x/var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-ddkjstzygkqhflgaatczzpxujmkc/Paparazzi2_Prefix.pch.gch
+xPaparazzi2_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile Paparazzi2_Prefix.pch332016426#332016427#0(0"0(0#0#59"/Users/Zhisheng/ObjC_Progs/Paparazzi2/Paparazzi2_Prefix.pch8621795392#1731"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-generated-files.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-own-target-headers.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-all-target-headers.hmap -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-project-headers.hmap -F/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/include -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources/armv6 -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources -c /Users/Zhisheng/ObjC_Progs/Paparazzi2/Paparazzi2_Prefix.pch -o /var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-ddkjstzygkqhflgaatczzpxujmkc/Paparazzi2_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-gthzdvsvxsqezbgrdjdfxwbihzbd/Paparazzi2_Prefix.pch.gch Paparazzi2_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s332016181.196228
+e332016182.455289
+r1
+xProcessPCH
+x/var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-gthzdvsvxsqezbgrdjdfxwbihzbd/Paparazzi2_Prefix.pch.gch
+xPaparazzi2_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile Paparazzi2_Prefix.pch332016181#332016182#0(0"0(0#0#59"/Users/Zhisheng/ObjC_Progs/Paparazzi2/Paparazzi2_Prefix.pch8615282496#1731"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-generated-files.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-own-target-headers.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-all-target-headers.hmap -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2-project-headers.hmap -F/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/include -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources/armv6 -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/DerivedSources -c /Users/Zhisheng/ObjC_Progs/Paparazzi2/Paparazzi2_Prefix.pch -o /var/folders/Xj/XjD3Ri2cFLSSAfG+cnz0xE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-gthzdvsvxsqezbgrdjdfxwbihzbd/Paparazzi2_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/jv/sw_xq1512qg7jkpk0_6gy2ym0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-aiutvnrkykixiyeytikhmcftnrpa/Paparazzi2_Prefix.pch.gch Paparazzi2_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/jv/sw_xq1512qg7jkpk0_6gy2ym0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-ddkjstzygkqhflgaatczzpxujmkc/Paparazzi2_Prefix.pch.gch Paparazzi2_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessProductPackaging "/Users/Zhisheng/Library/MobileDevice/Provisioning Profiles/21C3385E-BA34-4905-9EC8-744A821B6C55.mobileprovision" /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/embedded.mobileprovision
+s332016186.314177
+e332016186.349728
+r1
+xProcessProductPackaging
+x/Users/Zhisheng/Library/MobileDevice/Provisioning Profiles/21C3385E-BA34-4905-9EC8-744A821B6C55.mobileprovision
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/embedded.mobileprovision
+lSLF07#2@198"ProcessProductPackaging "/Users/Zhisheng/Library/MobileDevice/Provisioning Profiles/21C3385E-BA34-4905-9EC8-744A821B6C55.mobileprovision" build/Debug-iphoneos/Paparazzi2.app/embedded.mobileprovision332016186#332016186#0(0"0(0#0#98"/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/embedded.mobileprovision8614726720#489"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> "/Users/Zhisheng/Library/MobileDevice/Provisioning Profiles/21C3385E-BA34-4905-9EC8-744A821B6C55.mobileprovision" -o /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2.xcent
+s332338204.033586
+e332338204.102297
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2.xcent
+lSLF07#2@184"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2.xcent332338204#332338204#0(0"0(0#0#109"/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2.xcent8608458304#501"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphoneos/Paparazzi2.build/Paparazzi2.xcent0#
+
+CTouch /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app
+s332398370.365828
+e332398370.369173
+r1
+xTouch
+x/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app
+lSLF07#2@79"Touch /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app332398370#332398370#0(0"0(0#0#0"8632801312#327"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphoneos/Paparazzi2.app0#
+

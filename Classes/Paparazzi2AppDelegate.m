@@ -35,7 +35,7 @@
 		;
 	}
 	NSManagedObjectContext *MOC = [[FlickrFetcher sharedInstance] managedObjectContext];
-	
+	/*
 	Person *james = [NSEntityDescription
 					 insertNewObjectForEntityForName:@"Person" inManagedObjectContext:MOC];
 	[james setValue:@"James" forKey:@"name"];
@@ -68,6 +68,117 @@
 	[kp2 setValue:@"photo 2" forKey:@"imageName"];
 	[kp2 setValue:@"photo2.jpg" forKey:@"imageURL"];
 	[kp2 setValue:ken forKey:@"whoTook"];
+	*/
+	
+	self = [super init];
+	if(self) {
+		/*NSString *errorDesc = nil;
+		NSPropertyListFormat format;
+		NSString *plistPath;
+		NSString *rootPath = 
+		[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
+		plistPath = @"FakeData.plist";
+		
+		if(![[NSFileManager defaultManager] fileExistsAtPath:plistPath]){
+			plistPath = [[NSBundle mainBundle] pathForResource:@"Data" ofType:@"plist"];
+		}
+		
+		NSData *plistXML = [[NSFileManager defaultManager] contentsAtPath:plistPath];
+		NSArray *temp = (NSArray *)[NSPropertyListSerialization
+											  propertyListFromData:plistXML 
+											  mutabilityOption:NSPropertyListMutableContainersAndLeaves 
+											  format:&format 
+											  errorDescription:&errorDesc];
+		if(!temp){
+			NSLog(@"Error reading plist: %@, format: %d", errorDesc, format);
+		}*/
+		
+		
+		NSString *path = [[NSBundle mainBundle] pathForResource:@"FakeData" ofType:@"plist"];
+		NSData *plistData = [NSData dataWithContentsOfFile:path];
+		NSString *error;
+		NSPropertyListFormat format;
+		id plist;
+		
+		plist = [NSPropertyListSerialization propertyListFromData:plistData
+												 mutabilityOption:NSPropertyListImmutable
+														   format:&format
+												 errorDescription:&error];
+		if(!plist){
+			NSLog(error);
+			[error release];
+		}
+		
+		NSMutableArray *dma = (NSMutableArray *)[NSPropertyListSerialization
+												 propertyListFromData:plistData
+												 mutabilityOption:NSPropertyListMutableContainersAndLeaves
+												 format:&format
+												 errorDescription:&error];
+		
+		for( int i = 0; i < [dma count]; i++){
+			
+			//ToDo: first check if photo exist, then check if person exist, add relation then update.
+			
+			
+			NSDictionary *thisDict = (NSDictionary *) [dma objectAtIndex:i];
+			NSLog(@"this has %@ , %@", [thisDict objectForKey:@"user"], [thisDict objectForKey:@"name"]);
+			
+			
+			NSString *personName = (NSString *)[thisDict objectForKey:@"user"];
+			
+			NSEntityDescription *entityDescription = [NSEntityDescription
+													  entityForName:@"Person" inManagedObjectContext:MOC];
+			NSFetchRequest *request = [[[NSFetchRequest alloc] init] autorelease];
+			[request setEntity:entityDescription];
+			
+			// Set example predicate and sort orderings...
+			//NSNumber *minimumSalary = ...;
+			NSPredicate *predicate = [NSPredicate predicateWithFormat:
+									  @"name == %@", personName];
+			[request setPredicate:predicate];
+			
+			NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc]
+												initWithKey:@"name" ascending:YES];
+			[request setSortDescriptors:[NSArray arrayWithObject:sortDescriptor]];
+			[sortDescriptor release];
+			
+			NSError *error = nil;
+			NSArray *array = [MOC executeFetchRequest:request error:&error];
+			if (array == nil)
+			{
+				// Deal with error...
+			}
+			if([array count] > 0){
+				NSLog(@"has something");
+				Person *thisPerson = (Person *)[array objectAtIndex:0];
+				thisPerson 
+				
+				
+			} else {
+				Person *tempPerson = [NSEntityDescription
+									  insertNewObjectForEntityForName:@"Person" inManagedObjectContext:MOC];
+				[tempPerson setValue:(NSString *)[thisDict objectForKey:@"user"] forKey:@"name"];
+				
+			}
+
+			
+			
+			
+			
+			
+			Photo *tempPhoto = [NSEntityDescription
+						  insertNewObjectForEntityForName:@"Photo" inManagedObjectContext:MOC];
+			[tempPhoto setValue:(NSString *)[thisDict objectForKey:@"name"] forKey:@"imageName"];
+			[tempPhoto setValue:(NSString *)[thisDict objectForKey:@"path"] forKey:@"imageURL"];
+			[tempPhoto setValue:tempPerson forKey:@"whoTook"];
+			
+			
+		}
+		
+		
+		
+		//NSLog( temp objectForKey: @
+	}	
 	
 
 	NSError *error;

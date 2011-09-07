@@ -28,14 +28,15 @@
 	self.fetchedResultsController = 
 	[[FlickrFetcher sharedInstance] fetchedResultsControllerForEntity:@"Person" withPredicate: nil]; 
 	
-	//This is very important before we use the data, we need to perform fetch to get data from the database, otherwise
-	//these will be no data to use
+	/** 
+	 *  This is very important before we use the data, we need to perform fetch to get data from the database, otherwise
+	 *  these will be no data to use
+	 */
 	NSError *error;
 	if(![self.fetchedResultsController performFetch:&error]){
 		NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
 	}
-	
-	
+
 	
 	NSLog(@"the first count: %d", [[self.fetchedResultsController sections] count]);
 	
@@ -185,11 +186,15 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // Navigation logic may go here. Create and push another view controller.
 	
-	 PhotoListViewController *detailViewController = [[PhotoListViewController alloc] initWithNibName:nil bundle:nil];
-     // ...
+	Person *newPerson = [self.fetchedResultsController objectAtIndexPath:indexPath];
+	NSLog(@"print the name %@", [newPerson name]);
+		
+	PhotoListViewController *photoListViewController = [[PhotoListViewController alloc] initWithPerson:newPerson ];
+
+	// ...
      // Pass the selected object to the new view controller.
-	 [self.navigationController pushViewController:detailViewController animated:YES];
-	 [detailViewController release];
+	 [self.navigationController pushViewController:photoListViewController animated:YES];
+	 [photoListViewController release];
 	 
 }
 

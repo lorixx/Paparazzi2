@@ -11,22 +11,41 @@
 
 @implementation PhotoDetailViewController
 
-/*
- // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
-        // Custom initialization
-    }
-    return self;
-}
-*/
+@synthesize thisPhoto;
+@synthesize imageView;
 
-/*
+- initWithPhoto: (Photo *)photo{
+	
+	
+	thisPhoto = photo;
+	self.navigationItem.title =[ thisPhoto valueForKey:@"imageName"];
+	NSLog(@"%@", [ thisPhoto valueForKey:@"imageName"]);
+	
+	return self;
+	
+}
+
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+	
+	UIImage *image = [UIImage imageNamed:[self.thisPhoto valueForKey:@"imageURL"]];
+	self.imageView = [[UIImageView alloc] initWithImage:image];
+	
+	[self.view addSubview:self.imageView];
+	[(UIScrollView*)self.view setContentSize:[image size]];
+	[(UIScrollView*)self.view setMaximumZoomScale:2.0];
+
+	
 }
-*/
+
+
+
+- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
+{
+    return self.imageView;
+}
 
 /*
 // Override to allow orientations other than the default portrait orientation.
@@ -51,6 +70,8 @@
 
 
 - (void)dealloc {
+	[imageView release];
+	[thisPhoto release];
     [super dealloc];
 }
 

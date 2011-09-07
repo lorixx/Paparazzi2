@@ -7,22 +7,59 @@
 //
 
 #import "PhotoListViewController.h"
+#include "PhotoDetailViewController.h"
+#include "FlickrFetcher.h"
+#import "Photo.h"
 
 
 @implementation PhotoListViewController
+
+@synthesize person;
+@synthesize fetchedResultsController;
 
 
 #pragma mark -
 #pragma mark View lifecycle
 
-/*
+- initWithPerson: (Person *)thisPerson
+{
+	self.person = thisPerson;
+	
+	NSPredicate *predicate = [NSPredicate predicateWithFormat:@"whoTook = %@", thisPerson];
+	
+	
+	self.fetchedResultsController =
+	[[FlickrFetcher sharedInstance] fetchedPhotoResultsControllerForEntity:@"Photo" withPredicate:predicate ];
+	 
+	NSError *error;
+	if(![self.fetchedResultsController performFetch:&error]){
+		NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+	}
+	
+	
+	NSLog(@"Count for photos: %d", [[self.fetchedResultsController sections] count]);
+	
+	self.navigationItem.rightBarButtonItem = self.editButtonItem;
+	self.navigationItem.title = @"All Photos";
+	
+	UIBarButtonItem *backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Photos" style:UIBarButtonItemStyleBordered target:nil action:nil];
+    self.navigationItem.backBarButtonItem = backBarButtonItem;
+    [backBarButtonItem release];
+	
+	return self;
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+	
+
+	
 
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
-*/
+
 
 /*
 - (void)viewWillAppear:(BOOL)animated {
@@ -58,13 +95,17 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
-    return 2;
+    return [[self.fetchedResultsController sections] count];
 }
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return 3;
+    id <NSFetchedResultsSectionInfo> sectionInfo =
+		[[self.fetchedResultsController sections] objectAtIndex:section];
+	
+	return [sectionInfo numberOfObjects];
+	
 }
 
 
@@ -79,6 +120,11 @@
     }
     
     // Configure the cell...
+	cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
+	Photo *thisPhoto = [self.fetchedResultsController objectAtIndexPath:indexPath];
+	cell.textLabel.text = [thisPhoto valueForKey:@"imageName"];
+	[cell.imageView setImage:[UIImage imageNamed:[thisPhoto valueForKey:@"imageURL"]]];
+	cell.detailTextLabel.text = @"Click me to view photo";
     
     return cell;
 }
@@ -129,13 +175,14 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // Navigation logic may go here. Create and push another view controller.
-	/*
-	 <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+	Photo *thisPhoto = [self.fetchedResultsController objectAtIndexPath:indexPath];
+
+	PhotoDetailViewController *photoDetailViewController = [[PhotoDetailViewController alloc] initWithPhoto:thisPhoto];
      // ...
      // Pass the selected object to the new view controller.
-	 [self.navigationController pushViewController:detailViewController animated:YES];
-	 [detailViewController release];
-	 */
+	 [self.navigationController pushViewController:photoDetailViewController animated:YES];
+	 [photoDetailViewController release];
+	 
 }
 
 
