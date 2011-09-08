@@ -1,7 +1,7 @@
 TPaparazzi2
 v7
 r0
-t337060251.346950
+t337063411.941409
 cCheck dependencies
 cProcessInfoPlistFile /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app/Info.plist Paparazzi2-Info.plist
 cCompileXIB /Users/Zhisheng/ObjC_Progs/Paparazzi2/MainWindow.xib
@@ -29,6 +29,9 @@ cCompileC build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Objects-
 cCompileC build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Objects-normal/i386/PersonListViewController.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/PersonListViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Objects-normal/i386/PhotoListViewController.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoListViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Objects-normal/i386/PhotoDetailViewController.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/PhotoDetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app/Paparazzi2 normal i386
+cGenerateDSYMFile /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app.dSYM /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app/Paparazzi2
+cTouch /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
 c000000004C38FEF90000000000000132
@@ -121,16 +124,16 @@ t1297054251
 s6937
 
 N/Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.h
-c000000004E06AE1E00000000000004E5
-t1309060638
-s1253
+c000000004E66F6080000000000000506
+t1315370504
+s1286
 i<UIKit/UIKit.h>
 i<CoreData/CoreData.h>
 
 N/Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m
-c000000004E5DB6E90000000000003B3D
-t1314764521
-s15165
+c000000004E66F6A80000000000003060
+t1315370664
+s12384
 i"Paparazzi2AppDelegate.h"
 i"PersonListViewController.h"
 i"PhotoListViewController.h"
@@ -296,11 +299,11 @@ t1309074984
 s832
 
 N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app
-t1314764249
+t1315370611
 s714
 
 N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app.dSYM
-t1314764249
+t1315370611
 s102
 
 N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app/FakeData.plist
@@ -320,8 +323,8 @@ t1310324758
 s987
 
 N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app/Paparazzi2
-t1314764249
-s57352
+t1315370611
+s57428
 
 N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app/Paparazzi2.momd
 t1309408370
@@ -389,8 +392,8 @@ t1308984174
 s1105
 
 N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Objects-normal/i386/Paparazzi2AppDelegate.o
-t2
-s0
+t1315370611
+s83464
 
 N/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Objects-normal/i386/Person.o
 t1314583784
@@ -485,7 +488,7 @@ s981
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies337060249#337060250#0(0"0(0#1#0"4531422528#0"0#
+lSLF07#2@18"Check dependencies337063411#337063411#0(0"0(0#1#0"4546053440#0"0#
 
 CCompileC build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Objects-normal/i386/FlickrFetcher.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/FlickrFetcher.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s336276584.678289
@@ -501,9 +504,9 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@61"Compile /Users/Zhisheng/ObjC_Progs/Paparazzi2/FlickrFetcher.m336276584#336276584#0(0"0(0#0#53"/Users/Zhisheng/ObjC_Progs/Paparazzi2/FlickrFetcher.m4409114256#2039"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Paparazzi2-generated-files.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Paparazzi2-own-target-headers.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Paparazzi2-all-target-headers.hmap -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Paparazzi2-project-headers.hmap -F/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/include -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/DerivedSources/i386 -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/DerivedSources -include /var/folders/jv/sw_xq1512qg7jkpk0_6gy2ym0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-dwnaahzsvpplofbyffuoiyjrolmf/Paparazzi2_Prefix.pch -c /Users/Zhisheng/ObjC_Progs/Paparazzi2/FlickrFetcher.m -o /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Objects-normal/i386/FlickrFetcher.o0#
 
 CCompileC build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Objects-normal/i386/Paparazzi2AppDelegate.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s337060250.168700
-e337060251.346762
-r0
+s337063411.664968
+e337063411.864572
+r1
 xCompileC
 xbuild/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Objects-normal/i386/Paparazzi2AppDelegate.o
 x/Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m
@@ -511,13 +514,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-o/Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m: In function '-[Paparazzi2AppDelegate application:didFinishLaunchingWithOptions:]':
-o/Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m:108: warning: format not a string literal and no format arguments
-o/Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m:157: error: expected ';' before '}' token
-o/Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m:173: error: 'tempPerson' undeclared (first use in this function)
-o/Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m:173: error: (Each undeclared identifier is reported only once
-o/Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m:173: error: for each function it appears in.)
-lSLF07#2@77"Compile /Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m337060250#337060251#0(785"/Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m: In function '-[Paparazzi2AppDelegate application:didFinishLaunchingWithOptions:]':/Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m:108: warning: format not a string literal and no format arguments/Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m:157: error: expected ';' before '}' token/Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m:173: error: 'tempPerson' undeclared (first use in this function)/Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m:173: error: (Each undeclared identifier is reported only once/Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m:173: error: for each function it appears in.)3(22@51"Format not a string literal and no format arguments337060251#154#136#0(6@69"/Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m336457321#108#0#108#0#51"format not a string literal and no format arguments0(4@29"Expected ';' before '}' token337060251#290#112#0(6@69"/Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m336457321#157#0#157#0#19"expected * before *0(4@52"'tempPerson' undeclared (first use in this function)337060251#402#135#0(6@69"/Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m336457321#173#0#173#0#43"'*' undeclared (first use in this function)0(0#0#69"/Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m17299047936#2063"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Paparazzi2-generated-files.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Paparazzi2-own-target-headers.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Paparazzi2-all-target-headers.hmap -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Paparazzi2-project-headers.hmap -F/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/include -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/DerivedSources/i386 -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/DerivedSources -include /var/folders/jv/sw_xq1512qg7jkpk0_6gy2ym0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-dwnaahzsvpplofbyffuoiyjrolmf/Paparazzi2_Prefix.pch -c /Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m -o /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Objects-normal/i386/Paparazzi2AppDelegate.o1#
+lSLF07#2@77"Compile /Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m337063411#337063411#0(0"0(0#0#69"/Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m4546051728#2063"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Paparazzi2-generated-files.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Paparazzi2-own-target-headers.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Paparazzi2-all-target-headers.hmap -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Paparazzi2-project-headers.hmap -F/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/include -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/DerivedSources/i386 -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/DerivedSources -include /var/folders/jv/sw_xq1512qg7jkpk0_6gy2ym0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-dwnaahzsvpplofbyffuoiyjrolmf/Paparazzi2_Prefix.pch -c /Users/Zhisheng/ObjC_Progs/Paparazzi2/Classes/Paparazzi2AppDelegate.m -o /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Objects-normal/i386/Paparazzi2AppDelegate.o0#
 
 CCompileC build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Objects-normal/i386/Person.o /Users/Zhisheng/ObjC_Progs/Paparazzi2/Paparazzi2.xcdatamodeld/Person.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -744,23 +741,23 @@ x/Users/Zhisheng/ObjC_Progs/Paparazzi2/Paparazzi2.xcdatamodeld
 lSLF07#2@106"DataModelVersionCompile build/Debug-iphonesimulator/Paparazzi2.app/Paparazzi2.momd Paparazzi2.xcdatamodeld331101170#331101170#0(0"0(0#0#61"/Users/Zhisheng/ObjC_Progs/Paparazzi2/Paparazzi2.xcdatamodeld8679404160#454"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/Zhisheng/ObjC_Progs/Paparazzi2/Paparazzi2.xcdatamodeld /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app/Paparazzi2.momd0#
 
 CGenerateDSYMFile /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app.dSYM /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app/Paparazzi2
-s336457049.499904
-e336457049.591471
+s337063411.910698
+e337063411.938020
 r1
 xGenerateDSYMFile
 x/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app.dSYM
 x/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app/Paparazzi2
-lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/Paparazzi2.app.dSYM build/Debug-iphonesimulator/Paparazzi2.app/Paparazzi2336457049#336457049#0(0"0(0#0#91"/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app/Paparazzi24482002576#451"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app/Paparazzi2 -o /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app.dSYM0#
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/Paparazzi2.app.dSYM build/Debug-iphonesimulator/Paparazzi2.app/Paparazzi2337063411#337063411#0(0"0(0#0#91"/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app/Paparazzi24546051728#451"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app/Paparazzi2 -o /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app.dSYM0#
 
 CLd /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app/Paparazzi2 normal i386
-s336457048.977844
-e336457049.499810
+s337063411.867124
+e337063411.910468
 r1
 xLd
 x/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app/Paparazzi2
 xnormal
 xi386
-lSLF07#2@96"Link /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app/Paparazzi2336457048#336457049#0(0"0(0#0#0"4482002576#992"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator -F/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator -filelist /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Objects-normal/i386/Paparazzi2.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app/Paparazzi20#
+lSLF07#2@96"Link /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app/Paparazzi2337063411#337063411#0(0"0(0#0#0"4546051728#992"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator -F/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator -filelist /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Objects-normal/i386/Paparazzi2.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app/Paparazzi20#
 
 CProcessInfoPlistFile /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app/Info.plist Paparazzi2-Info.plist
 s336276581.926097
@@ -824,10 +821,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@32"Precompile Paparazzi2_Prefix.pch336276582#336276584#0(0"0(0#0#59"/Users/Zhisheng/ObjC_Progs/Paparazzi2/Paparazzi2_Prefix.pch4409114256#1911"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Paparazzi2-generated-files.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Paparazzi2-own-target-headers.hmap -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Paparazzi2-all-target-headers.hmap -iquote /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/Paparazzi2-project-headers.hmap -F/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/include -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/DerivedSources/i386 -I/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Paparazzi2.build/Debug-iphonesimulator/Paparazzi2.build/DerivedSources -c /Users/Zhisheng/ObjC_Progs/Paparazzi2/Paparazzi2_Prefix.pch -o /var/folders/jv/sw_xq1512qg7jkpk0_6gy2ym0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Paparazzi2_Prefix-dwnaahzsvpplofbyffuoiyjrolmf/Paparazzi2_Prefix.pch.gch0#
 
 CTouch /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app
-s336457049.591642
-e336457049.594666
+s337063411.938113
+e337063411.941264
 r1
 xTouch
 x/Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app
-lSLF07#2@86"Touch /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app336457049#336457049#0(0"0(0#0#0"4482002576#341"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app0#
+lSLF07#2@86"Touch /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app337063411#337063411#0(0"0(0#0#0"4546051728#341"    cd /Users/Zhisheng/ObjC_Progs/Paparazzi2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/Zhisheng/ObjC_Progs/Paparazzi2/build/Debug-iphonesimulator/Paparazzi2.app0#
 

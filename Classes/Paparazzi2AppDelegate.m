@@ -25,162 +25,18 @@
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-	
-    // Override point for customization after application launch.
-	
-	
-	//start reading from plist and save context to database
-	//NSManagedObjectContext *MOC = [self managedObjectContext];
+
 	if ([[FlickrFetcher sharedInstance] databaseExists]) {
 		;
 	}
 	NSManagedObjectContext *MOC = [[FlickrFetcher sharedInstance] managedObjectContext];
-	/*
-	Person *james = [NSEntityDescription
-					 insertNewObjectForEntityForName:@"Person" inManagedObjectContext:MOC];
-	[james setValue:@"James" forKey:@"name"];
-	
-	Photo *jp1 = [NSEntityDescription
-				  insertNewObjectForEntityForName:@"Photo" inManagedObjectContext:MOC];
-	[jp1 setValue:@"photo 1" forKey:@"imageName"];
-	[jp1 setValue:@"photo1.jpg" forKey:@"imageURL"];
-	[jp1 setValue:james forKey:@"whoTook"];
-	
-	Photo *jp2 = [NSEntityDescription
-				  insertNewObjectForEntityForName:@"Photo" inManagedObjectContext:MOC];
-	[jp2 setValue:@"photo 2" forKey:@"imageName"];
-	[jp2 setValue:@"photo2.jpg" forKey:@"imageURL"];
-	[jp2 setValue:james forKey:@"whoTook"];
-	
-	
-	Person *ken = [NSEntityDescription
-				   insertNewObjectForEntityForName:@"Person" inManagedObjectContext:MOC];
-	[ken setValue:@"Ken" forKey:@"name"];
-	
-	Photo *kp1 = [NSEntityDescription
-			   insertNewObjectForEntityForName:@"Photo" inManagedObjectContext:MOC];
-	[kp1 setValue:@"photo 3" forKey:@"imageName"];
-	[kp1 setValue:@"photo3.jpg" forKey:@"imageURL"];
-	[kp1 setValue:ken forKey:@"whoTook"];
-	
-	Photo *kp2 = [NSEntityDescription
-				  insertNewObjectForEntityForName:@"Photo" inManagedObjectContext:MOC];
-	[kp2 setValue:@"photo 2" forKey:@"imageName"];
-	[kp2 setValue:@"photo2.jpg" forKey:@"imageURL"];
-	[kp2 setValue:ken forKey:@"whoTook"];
-	*/
-	
-	self = [super init];
-	if(self) {
-		/*NSString *errorDesc = nil;
-		NSPropertyListFormat format;
-		NSString *plistPath;
-		NSString *rootPath = 
-		[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
-		plistPath = @"FakeData.plist";
-		
-		if(![[NSFileManager defaultManager] fileExistsAtPath:plistPath]){
-			plistPath = [[NSBundle mainBundle] pathForResource:@"Data" ofType:@"plist"];
-		}
-		
-		NSData *plistXML = [[NSFileManager defaultManager] contentsAtPath:plistPath];
-		NSArray *temp = (NSArray *)[NSPropertyListSerialization
-											  propertyListFromData:plistXML 
-											  mutabilityOption:NSPropertyListMutableContainersAndLeaves 
-											  format:&format 
-											  errorDescription:&errorDesc];
-		if(!temp){
-			NSLog(@"Error reading plist: %@, format: %d", errorDesc, format);
-		}*/
-		
-		
-		NSString *path = [[NSBundle mainBundle] pathForResource:@"FakeData" ofType:@"plist"];
-		NSData *plistData = [NSData dataWithContentsOfFile:path];
-		NSString *error;
-		NSPropertyListFormat format;
-		id plist;
-		
-		plist = [NSPropertyListSerialization propertyListFromData:plistData
-												 mutabilityOption:NSPropertyListImmutable
-														   format:&format
-												 errorDescription:&error];
-		if(!plist){
-			NSLog(error);
-			[error release];
-		}
-		
-		NSMutableArray *dma = (NSMutableArray *)[NSPropertyListSerialization
-												 propertyListFromData:plistData
-												 mutabilityOption:NSPropertyListMutableContainersAndLeaves
-												 format:&format
-												 errorDescription:&error];
-		
-		for( int i = 0; i < [dma count]; i++){
-			
-			//ToDo: first check if photo exist, then check if person exist, add relation then update.
-			
-			
-			NSDictionary *thisDict = (NSDictionary *) [dma objectAtIndex:i];
-			NSLog(@"this has %@ , %@", [thisDict objectForKey:@"user"], [thisDict objectForKey:@"name"]);
-			
-			
-			NSString *personName = (NSString *)[thisDict objectForKey:@"user"];
-			
-			NSEntityDescription *entityDescription = [NSEntityDescription
-													  entityForName:@"Person" inManagedObjectContext:MOC];
-			NSFetchRequest *request = [[[NSFetchRequest alloc] init] autorelease];
-			[request setEntity:entityDescription];
-			
-			// Set example predicate and sort orderings...
-			//NSNumber *minimumSalary = ...;
-			NSPredicate *predicate = [NSPredicate predicateWithFormat:
-									  @"name == %@", personName];
-			[request setPredicate:predicate];
-			
-			NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc]
-												initWithKey:@"name" ascending:YES];
-			[request setSortDescriptors:[NSArray arrayWithObject:sortDescriptor]];
-			[sortDescriptor release];
-			
-			NSError *error = nil;
-			NSArray *array = [MOC executeFetchRequest:request error:&error];
-			if (array == nil)
-			{
-				// Deal with error...
-			}
-			if([array count] > 0){
-				NSLog(@"has something");
-				Person *thisPerson = (Person *)[array objectAtIndex:0];
-				thisPerson 
-				
-				
-			} else {
-				Person *tempPerson = [NSEntityDescription
-									  insertNewObjectForEntityForName:@"Person" inManagedObjectContext:MOC];
-				[tempPerson setValue:(NSString *)[thisDict objectForKey:@"user"] forKey:@"name"];
-				
-			}
 
-			
-			
-			
-			
-			
-			Photo *tempPhoto = [NSEntityDescription
-						  insertNewObjectForEntityForName:@"Photo" inManagedObjectContext:MOC];
-			[tempPhoto setValue:(NSString *)[thisDict objectForKey:@"name"] forKey:@"imageName"];
-			[tempPhoto setValue:(NSString *)[thisDict objectForKey:@"path"] forKey:@"imageURL"];
-			[tempPhoto setValue:tempPerson forKey:@"whoTook"];
-			
-			
-		}
-		
-		
-		
-		//NSLog( temp objectForKey: @
+	if(self) {
+		[self populateCoreDataStorage];
+	
 	}	
 	
-
+	
 	NSError *error;
 	if(![MOC save:&error]){
 		NSLog(@"oh, couldnt save: %@", [error localizedDescription]);
@@ -203,12 +59,6 @@
 		while (collectionMember = [enumerator nextObject]) {
 			NSLog(@"%@ has: %@",[info valueForKey:@"name"], [collectionMember valueForKey:@"imageName"]);
 		}
-		
-		/*
-		NSLog(@"image name: %@", [info valueForKey:@"imageName"]);
-		NSManagedObject *photographer = [info valueForKey:@"whoTook"];
-		NSLog(@"who took: %@", [photographer valueForKey:@"name"]);
-		 */
 	} 
 	
 	
@@ -234,11 +84,83 @@
     [window makeKeyAndVisible];
 	
 	[personListVC release];
-	[recentPhotoListVC release];
-	
+	[recentPhotoListVC release];	
 	
 	return YES;
 }
+
+
+
+- (void) populateCoreDataStorage {
+	FlickrFetcher * flickrFetcher = [FlickrFetcher sharedInstance];
+	
+	NSLog(@"No Database created yet: Load plist!");
+	NSManagedObjectContext*  flickrContext = [flickrFetcher managedObjectContext];
+	
+	//Get path to copy the Bundle to the Documents directory...
+	NSString *rootPath = [self applicationDocumentsDirectory];
+	NSString *plistPath = [rootPath stringByAppendingPathComponent:@"FakeData.plist"];
+	
+	//Pull the data from the Bundle object in the Resources directory...
+	NSFileManager *defaultFile = [NSFileManager defaultManager];
+	BOOL isInstalled = [defaultFile fileExistsAtPath :plistPath];
+	
+	NSArray *plistData = [NSArray arrayWithContentsOfFile :plistPath];
+	
+	if(isInstalled == NO)
+	{		
+		NSLog(@"Initial installation: retrieve and copy FakeData.plist from Main Bundle");
+		
+		NSString *bundlePath = [[NSBundle mainBundle] pathForResource :@"FakeData" ofType:@"plist"];
+		plistData = [NSArray arrayWithContentsOfFile :bundlePath];
+		
+		if(plistData)
+		{
+			[plistData writeToFile :plistPath atomically:YES];
+			//OR... [defaultFile copyItemAtPath:bundlePath toPath:plistPath error:&errorDesc];
+		}		
+	}
+	
+	//Process plistData to store in Photo and Person objects...
+	NSEnumerator *enumr = [plistData objectEnumerator];
+	id curr = [enumr nextObject];
+	NSMutableArray *names = [[NSMutableArray alloc] init];
+	
+	while (curr != nil)
+	{
+		Photo *photo = [NSEntityDescription insertNewObjectForEntityForName :@"Photo" 
+													  inManagedObjectContext:flickrContext];
+		[photo setImageName :[curr objectForKey:@"name"]];
+		[photo setImageURL :[curr objectForKey:@"path"]];
+		
+		//See if the name has already been set for a Person object...
+		NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%@ IN %@", [curr objectForKey:@"user"], names];
+		BOOL doesExist = [predicate evaluateWithObject :curr];
+		
+		if (doesExist == NO)
+		{				
+			Person *person = [NSEntityDescription insertNewObjectForEntityForName :@"Person" inManagedObjectContext:flickrContext];
+			
+			[person setName:[curr objectForKey:@"user"]];
+			[person addPhotosObject:photo];
+			[photo setWhoTook:person];
+			NSLog(@"Person OBJECT: %@", person);
+			[names addObject :[curr objectForKey :@"user"]];
+		}
+		else 
+		{
+			NSArray *objectArray = [flickrFetcher fetchManagedObjectsForEntity :@"Person" withPredicate:predicate];
+			Person *person = [objectArray objectAtIndex:0];
+			[photo setWhoTook:person];
+			[objectArray release];
+		}
+		curr = [enumr nextObject];
+	}
+	[names release];
+	
+	
+}
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
