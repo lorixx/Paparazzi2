@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h> 
 
-#define TEST_HIGH_NETWORK_LATENCY 0
+#define TEST_HIGH_NETWORK_LATENCY 1
 
 typedef enum {
 	FlickrFetcherPhotoFormatSquare,
