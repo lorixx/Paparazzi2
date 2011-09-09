@@ -306,6 +306,7 @@
 			DBAA8CBC1419CB850085BFB8 /* PBXTextBookmark */ = DBAA8CBC1419CB850085BFB8 /* PBXTextBookmark */;
 			DBAA8CBD1419CB850085BFB8 /* PBXTextBookmark */ = DBAA8CBD1419CB850085BFB8 /* PBXTextBookmark */;
 			DBAA8CBE1419CBA40085BFB8 /* PBXTextBookmark */ = DBAA8CBE1419CBA40085BFB8 /* PBXTextBookmark */;
+			DBAA8CBF1419CBC00085BFB8 /* PBXTextBookmark */ = DBAA8CBF1419CBC00085BFB8 /* PBXTextBookmark */;
 			DBC68B851417296C0095EFD1 = DBC68B851417296C0095EFD1 /* PlistBookmark */;
 			DBC68B861417296C0095EFD1 = DBC68B861417296C0095EFD1 /* PBXTextBookmark */;
 			DBD88978140C9AE300785BF3 = DBD88978140C9AE300785BF3 /* PBXTextBookmark */;
@@ -755,6 +756,16 @@
 		vrLoc = 0;
 	};
 	DBAA8CBE1419CBA40085BFB8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DBFDF5591418706500E53538 /* FlickrFetcher.h */;
+		name = "FlickrFetcher.h: 11";
+		rLen = 0;
+		rLoc = 205;
+		rType = 0;
+		vrLen = 1029;
+		vrLoc = 0;
+	};
+	DBAA8CBF1419CBC00085BFB8 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = DBFDF5591418706500E53538 /* FlickrFetcher.h */;
 		name = "FlickrFetcher.h: 11";
