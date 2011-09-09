@@ -7,6 +7,8 @@
 //
 
 #import "FlickrFetcher.h"
+#import "FlickrAPIKey.h"
+#import "JSON.h"
 
 @interface FlickrFetcher ()
 
@@ -55,7 +57,7 @@
 	
 	[fetchRequest setSortDescriptors:sortDescriptors];
 	
-    // Add a predicate if we're filtering  by user name
+    // Add a predicate if we're filtering by user name
     if (predicate) {
         [fetchRequest setPredicate:predicate];
     }
@@ -70,47 +72,6 @@
 	
 	return [fetchedResultsController autorelease];
 }
-
-- (NSFetchedResultsController *)fetchedPhotoResultsControllerForEntity:(NSString*)entityName withPredicate:(NSPredicate*)predicate
-{
-	NSFetchedResultsController *fetchedResultsController;
-    
-    /*
-	 Set up the fetched results controller.
-     */
-	// Create the fetch request for the entity.
-	NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
-	// Edit the entity name as appropriate.
-	NSEntityDescription *entity = [NSEntityDescription entityForName:entityName inManagedObjectContext:[self managedObjectContext]];
-	[fetchRequest setEntity:entity];
-	
-	// Set the batch size to a suitable number.
-	[fetchRequest setFetchBatchSize:20];
-	
-	// Edit the sort key as appropriate.
-	NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"imageName" ascending:NO];
-	NSArray *sortDescriptors = [[NSArray alloc] initWithObjects:sortDescriptor, nil];
-	
-	[fetchRequest setSortDescriptors:sortDescriptors];
-	
-    // Add a predicate if we're filtering  by user name
-    if (predicate) {
-        [fetchRequest setPredicate:predicate];
-    }
-    
-	// Edit the section name key path and cache name if appropriate.
-    // nil for section name key path means "no sections".
-	fetchedResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest managedObjectContext:[self managedObjectContext] sectionNameKeyPath:nil cacheName:@"Root"];
-	
-	[fetchRequest release];
-	[sortDescriptor release];
-	[sortDescriptors release];
-	
-	return [fetchedResultsController autorelease];
-	
-}
-
-
 
 - (NSArray *)fetchManagedObjectsForEntity:(NSString*)entityName withPredicate:(NSPredicate*)predicate
 {
@@ -209,6 +170,101 @@
 	return databaseExists;
 }
 
+
+#pragma mark -
+#pragma mark Flickr API Access
+
+- (NSString *)nsidForUserName:(NSString *)username {
+	// Construct a Flickr API request.
+	NSString *urlString = [NSString stringWithFormat:@"http://api.flickr.com/services/rest/?method=flickr.people.findByUsername&api_key=%@&username=%@&format=json&nojsoncallback=1", FlickrAPIKey, username];
+	NSURL *url = [NSURL URLWithString:urlString];
+	
+	// Get the contents of the URL as a string, and parse the JSON into Foundation objects.
+	NSString *jsonString = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil];
+	NSDictionary *results = [jsonString JSONValue];
+	
+	// Now we need to dig through the resulting objects.
+	// Read the documentation and make liberal use of the debugger or logs.
+	return [[results objectForKey:@"user"] objectForKey:@"nsid"];
+}
+
+- (NSArray *)photosForUser:(NSString *)username {
+#if TEST_HIGH_NETWORK_LATENCY
+	sleep(1);
+#endif
+	
+	// Construct a Flickr API request.
+	NSString *urlString = [NSString stringWithFormat:@"http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=%@&user_id=%@&per_page=10&format=json&nojsoncallback=1", FlickrAPIKey, [self nsidForUserName:username]];
+	NSURL *url = [NSURL URLWithString:urlString];
+	
+	// Get the contents of the URL as a string, and parse the JSON into Foundation objects.
+	NSString *jsonString = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil];
+	NSDictionary *results = [jsonString JSONValue];
+	
+	// Now we need to dig through the resulting objects.
+	// Read the documentation and make liberal use of the debugger or logs.
+	return [[results objectForKey:@"photos"] objectForKey:@"photo"];
+}
+
+- (NSArray *)recentGeoTaggedPhotos {
+	// Construct a Flickr API request.
+	NSString *urlString = [NSString stringWithFormat:@"http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=%@&has_geo=1&per_page=10&format=json&nojsoncallback=1", FlickrAPIKey];
+	NSURL *url = [NSURL URLWithString:urlString];
+	
+	// Get the contents of the URL as a string, and parse the JSON into Foundation objects.
+	NSString *jsonString = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil];
+	NSDictionary *results = [jsonString JSONValue];
+	
+	// Now we need to dig through the resulting objects.
+	// Read the documentation and make liberal use of the debugger or logs.
+	return [[results objectForKey:@"photos"] objectForKey:@"photo"];
+}
+
+- (NSString *)usernameForUserID:(NSString *)userID {
+#if TEST_HIGH_NETWORK_LATENCY
+	sleep(1);
+#endif
+	
+	NSString *urlString = [NSString stringWithFormat:@"http://api.flickr.com/services/rest/?method=flickr.people.getInfo&api_key=%@&user_id=%@&per_page=10&format=json&nojsoncallback=1", FlickrAPIKey, userID];
+	NSURL *url = [NSURL URLWithString:urlString];
+	NSString *jsonString = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil];
+	
+	return [[[[jsonString JSONValue] valueForKey:@"person"] valueForKey:@"username"] valueForKey:@"_content"];
+}
+
+- (NSData *)dataForPhotoID:(NSString *)photoID fromFarm:(NSString *)farm onServer:(NSString *)server withSecret:(NSString *)secret inFormat:(FlickrFetcherPhotoFormat)format {
+#if TEST_HIGH_NETWORK_LATENCY
+	sleep(1);
+#endif
+	
+	NSString *formatString;
+	
+	switch (format) {
+		case FlickrFetcherPhotoFormatSquare:    formatString = @"s"; break;
+//		case FlickrFetcherPhotoFormatThumbnail: formatString = @"t"; break;
+//		case FlickrFetcherPhotoFormatSmall:     formatString = @"m"; break;
+//		case FlickrFetcherPhotoFormatMedium:    formatString = @"-"; break;
+		case FlickrFetcherPhotoFormatLarge:     formatString = @"b"; break;
+//		case FlickrFetcherPhotoFormatOriginal:  formatString = @"o"; break;
+	}
+	
+	NSString *photoURLString = [NSString stringWithFormat:@"http://farm%@.static.flickr.com/%@/%@_%@_%@.jpg", farm, server, photoID, secret, formatString];
+	NSURL *url = [NSURL URLWithString:photoURLString];
+	
+	return [NSData dataWithContentsOfURL:url];
+}
+
+- (NSDictionary *)locationForPhotoID:(NSString *)photoID {
+#if TEST_HIGH_NETWORK_LATENCY
+	sleep(1);
+#endif
+	
+	NSString *urlString = [NSString stringWithFormat:@"http://api.flickr.com/services/rest/?method=flickr.photos.geo.getLocation&api_key=%@&photo_id=%@&format=json&nojsoncallback=1", FlickrAPIKey, photoID];
+	NSURL *url = [NSURL URLWithString:urlString];
+	NSString *jsonString = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil];
+	
+	return [[[jsonString JSONValue] valueForKey:@"photo"] valueForKey:@"location"];
+}
 
 #pragma mark -
 #pragma mark Application's Documents directory
