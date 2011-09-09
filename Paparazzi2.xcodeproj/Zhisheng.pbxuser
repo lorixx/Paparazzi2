@@ -299,6 +299,12 @@
 			DBAA8CB51419BADE0085BFB8 /* PBXTextBookmark */ = DBAA8CB51419BADE0085BFB8 /* PBXTextBookmark */;
 			DBAA8CB61419BADE0085BFB8 /* PBXBookmark */ = DBAA8CB61419BADE0085BFB8 /* PBXBookmark */;
 			DBAA8CB71419BADE0085BFB8 /* PBXBookmark */ = DBAA8CB71419BADE0085BFB8 /* PBXBookmark */;
+			DBAA8CB81419CB850085BFB8 /* PBXBookmark */ = DBAA8CB81419CB850085BFB8 /* PBXBookmark */;
+			DBAA8CB91419CB850085BFB8 /* PBXTextBookmark */ = DBAA8CB91419CB850085BFB8 /* PBXTextBookmark */;
+			DBAA8CBA1419CB850085BFB8 /* PBXTextBookmark */ = DBAA8CBA1419CB850085BFB8 /* PBXTextBookmark */;
+			DBAA8CBB1419CB850085BFB8 /* PBXTextBookmark */ = DBAA8CBB1419CB850085BFB8 /* PBXTextBookmark */;
+			DBAA8CBC1419CB850085BFB8 /* PBXTextBookmark */ = DBAA8CBC1419CB850085BFB8 /* PBXTextBookmark */;
+			DBAA8CBD1419CB850085BFB8 /* PBXTextBookmark */ = DBAA8CBD1419CB850085BFB8 /* PBXTextBookmark */;
 			DBC68B851417296C0095EFD1 = DBC68B851417296C0095EFD1 /* PlistBookmark */;
 			DBC68B861417296C0095EFD1 = DBC68B861417296C0095EFD1 /* PBXTextBookmark */;
 			DBD88978140C9AE300785BF3 = DBD88978140C9AE300785BF3 /* PBXTextBookmark */;
@@ -318,7 +324,7 @@
 	};
 	32CA4F630368D1EE00C91783 /* Paparazzi2_Prefix.pch */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {809, 503}}";
+			sepNavIntBoundsRect = "{{0, 0}, {809, 493}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 360}";
 			sepNavWindowFrame = "{{61, 357}, {1746, 774}}";
@@ -379,7 +385,7 @@
 		fRef = DBF6205313B5B86D002364AE /* FlickrFetcher.h */;
 		name = "FlickrFetcher.h: 28";
 		rLen = 0;
-		rLoc = 823;
+		rLoc = 824;
 		rType = 0;
 		vrLen = 1271;
 		vrLoc = 0;
@@ -646,7 +652,7 @@
 		fRef = DBFDF5591418706500E53538 /* FlickrFetcher.h */;
 		name = "FlickrFetcher.h: 35";
 		rLen = 0;
-		rLoc = 823;
+		rLoc = 824;
 		rType = 0;
 		vrLen = 1028;
 		vrLoc = 0;
@@ -692,6 +698,60 @@
 	DBAA8CB71419BADE0085BFB8 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = DBF6209513B6E877002364AE /* faves.png */;
+	};
+	DBAA8CB81419CB850085BFB8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DBF6209513B6E877002364AE /* faves.png */;
+	};
+	DBAA8CB91419CB850085BFB8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Paparazzi2_Prefix.pch */;
+		name = "Paparazzi2_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 360;
+		vrLoc = 0;
+	};
+	DBAA8CBA1419CB850085BFB8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DBF6203C13B5B7FC002364AE /* Person.h */;
+		name = "Person.h: 8";
+		rLen = 0;
+		rLoc = 144;
+		rType = 0;
+		vrLen = 549;
+		vrLoc = 0;
+	};
+	DBAA8CBB1419CB850085BFB8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DBF6207213B5BA1B002364AE /* PersonListViewController.h */;
+		name = "PersonListViewController.h: 19";
+		rLen = 83;
+		rLoc = 402;
+		rType = 0;
+		vrLen = 492;
+		vrLoc = 0;
+	};
+	DBAA8CBC1419CB850085BFB8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DBFDF55A1418706500E53538 /* FlickrFetcher.m */;
+		name = "FlickrFetcher.m: 13";
+		rLen = 0;
+		rLoc = 216;
+		rType = 0;
+		vrLen = 732;
+		vrLoc = 0;
+	};
+	DBAA8CBD1419CB850085BFB8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DBFDF5591418706500E53538 /* FlickrFetcher.h */;
+		name = "FlickrFetcher.h: 9";
+		rLen = 0;
+		rLoc = 168;
+		rType = 0;
+		vrLen = 1029;
+		vrLoc = 0;
 	};
 	DBC68B851417296C0095EFD1 /* PlistBookmark */ = {
 		isa = PlistBookmark;
@@ -791,7 +851,7 @@
 	};
 	DBF6203C13B5B7FC002364AE /* Person.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {809, 526}}";
+			sepNavIntBoundsRect = "{{0, 0}, {809, 493}}";
 			sepNavSelRange = "{144, 0}";
 			sepNavVisRange = "{0, 549}";
 			sepNavWindowFrame = "{{15, 62}, {1477, 1116}}";
@@ -938,8 +998,8 @@
 	DBFDF5591418706500E53538 /* FlickrFetcher.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {894, 910}}";
-			sepNavSelRange = "{823, 0}";
-			sepNavVisRange = "{0, 1028}";
+			sepNavSelRange = "{168, 0}";
+			sepNavVisRange = "{0, 1029}";
 		};
 	};
 	DBFDF55A1418706500E53538 /* FlickrFetcher.m */ = {

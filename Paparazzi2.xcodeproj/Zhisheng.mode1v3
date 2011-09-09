@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -274,13 +272,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>28</integer>
-									<integer>21</integer>
+									<integer>3</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 170}, {388, 660}}</string>
+							<string>{{0, 15}, {388, 660}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -310,12 +308,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>faves.png</string>
+								<string>FlickrFetcher.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,11 +323,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>faves.png</string>
+										<string>FlickrFetcher.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DBAA8CB71419BADE0085BFB8</string>
+										<string>DBAA8CBD1419CB850085BFB8</string>
 										<key>history</key>
 										<array>
 											<string>DBF623A713BC3651002364AE</string>
@@ -349,17 +349,17 @@
 											<string>DBC68B851417296C0095EFD1</string>
 											<string>DBC68B861417296C0095EFD1</string>
 											<string>DB226A5914172CF800180F05</string>
-											<string>DB226A5A14172CF800180F05</string>
 											<string>DB226A6014172D9300180F05</string>
-											<string>DB226A691418631000180F05</string>
 											<string>DBAA8CAF1419BADE0085BFB8</string>
 											<string>DBAA8CB01419BADE0085BFB8</string>
-											<string>DBAA8CB11419BADE0085BFB8</string>
-											<string>DBAA8CB21419BADE0085BFB8</string>
-											<string>DBAA8CB31419BADE0085BFB8</string>
 											<string>DBAA8CB41419BADE0085BFB8</string>
 											<string>DBAA8CB51419BADE0085BFB8</string>
-											<string>DBAA8CB61419BADE0085BFB8</string>
+											<string>DBAA8CB81419CB850085BFB8</string>
+											<string>DBAA8CB91419CB850085BFB8</string>
+											<string>DBAA8CBA1419CB850085BFB8</string>
+											<string>DBAA8CBB1419CB850085BFB8</string>
+											<string>DBAA8CBC1419CB850085BFB8</string>
+											<string>DBAA8CB11419BADE0085BFB8</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
